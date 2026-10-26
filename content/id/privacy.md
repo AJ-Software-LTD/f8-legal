@@ -1,21 +1,22 @@
 ---
 title: Kebijakan Privasi f/8 Portfolio
-description: Cara f/8 Portfolio untuk Mac menangani foto dan data pribadi Anda.
+description: Cara f/8 Portfolio untuk iPhone, iPad, dan Mac menangani foto dan data pribadi Anda.
 ---
 
-**f/8 tidak memiliki akun, analitik, iklan, maupun pelacakan, dan tidak pernah menjual apa pun tentang Anda.** Foto Anda tetap berada di Mac Anda, kecuali Anda memilih untuk menaruh tag di iCloud. Apa yang Anda taruh di iCloud disimpan di akun iCloud Anda sendiri, bukan di server yang kami kelola.
+**f/8 tidak memiliki akun, analitik, iklan, maupun pelacakan, dan tidak pernah menjual apa pun tentang Anda.** Foto Anda tetap berada di perangkat Anda, kecuali Anda memilih untuk menaruh tag di iCloud. Apa yang Anda taruh di iCloud disimpan di akun iCloud Anda sendiri, bukan di server yang kami kelola.
 
 ## Siapa kami
 
 f/8 Portfolio ("f/8") dibuat oleh {{company}} ("kami"). Kami adalah pengendali data pribadi yang dijelaskan di sini, berdasarkan Peraturan Umum Perlindungan Data Inggris (UK GDPR) dan Undang-Undang Perlindungan Data 2018 (Data Protection Act 2018). Anda dapat menghubungi kami tentang apa pun dalam kebijakan ini di {{contact}}.
 
-## Di Mac Anda
+## Di perangkat Anda
 
-- **Foto.** Dengan izin Anda, f/8 membaca foto yang Anda pilih dari perpustakaan Foto atau dari folder di Mac Anda. Jika foto disimpan di Foto iCloud, macOS mungkin mengunduhnya untuk f/8.
+- **Foto.** Dengan izin Anda, f/8 membaca foto yang Anda pilih dari perpustakaan Foto atau dari folder di perangkat Anda (di File pada iPhone dan iPad). Jika foto disimpan di Foto iCloud, perangkat Anda mungkin mengunduhnya untuk f/8.
 - **Detail foto.** Untuk memberi tag pada foto Anda, f/8 membaca detail setiap foto: tanggal pengambilan, lokasi, ukuran dan format, kamera dan lensa, panjang fokus, bukaan, eksposur dan ISO, serta apakah foto tersebut favorit, foto Potret, HDR, Live, atau panorama.
 - **Nama tempat.** Untuk mengubah lokasi foto menjadi nama tempat seperti "London", f/8 mengirim koordinat foto ke layanan lokasi Apple, yang mengembalikan kota, wilayah, dan negara. f/8 tidak menggunakan Layanan Lokasi dan tidak pernah menanyakan di mana Anda berada.
-- **Yang disimpan f/8.** Tag Anda, detail di atas, pengaturan Anda, musik yang Anda tambahkan ke salindia, dan salinan foto yang dibagikan kepada Anda hanya disimpan di Mac Anda, di folder milik f/8 sendiri. Salinan foto milik orang lain dienkripsi, dengan kunci yang disimpan di Rantai Kunci Mac Anda.
-- **Foto sensitif.** Jika Anda telah menyalakan Peringatan Konten Sensitif di macOS, f/8 menggunakan analisis Apple di perangkat untuk mengaburkan foto yang mungkin berisi ketelanjangan. Analisis dilakukan sepenuhnya di Mac Anda dan tidak ada yang dikirim ke mana pun.
+- **Yang disimpan f/8.** Tag Anda, detail di atas, pengaturan Anda, musik yang Anda tambahkan ke salindia, dan salinan foto yang dibagikan kepada Anda hanya disimpan di perangkat Anda, di folder milik f/8 sendiri. Salinan foto milik orang lain dienkripsi, dengan kunci yang disimpan di Rantai Kunci perangkat Anda.
+- **Menyimpan dan AirPlay.** Saat Anda menyimpan foto yang dibagikan seseorang kepada Anda, f/8 menambahkannya ke perpustakaan Foto atau File Anda, dengan izin Anda. Salindia yang Anda putar di TV dikirim ke sana langsung dari perangkat Anda dengan AirPlay dari Apple.
+- **Foto sensitif.** Jika Anda telah menyalakan Peringatan Konten Sensitif di perangkat Anda, f/8 menggunakan analisis Apple di perangkat untuk mengaburkan foto yang mungkin berisi ketelanjangan. Analisis dilakukan sepenuhnya di perangkat Anda dan tidak ada yang dikirim ke mana pun.
 
 ## Di iCloud
 
@@ -24,7 +25,7 @@ Saat Anda menaruh tag di iCloud, f/8 menyimpannya di **database iCloud pribadi m
 - foto, dalam kualitas yang Anda pilih. **Lokasi persis selalu dihapus.** Pada Kualitas Dikurangi, semua detail lainnya juga dihapus. Pada Kualitas Asli, detail kamera seperti kamera, lensa, dan pengaturan tetap disimpan.
 - detail foto dari f/8, tanpa koordinat, termasuk nama tempat.
 - nama, urutan, kualitas, dan pengaturan salindia tag.
-- nama setiap Mac tempat Anda mengunggah, yang disimpan terpisah dari tag Anda dan tidak pernah dibagikan, agar Mac Anda yang lain dapat menampilkan asal tag di "Dari Mac Anda yang Lain".
+- nama setiap Mac tempat Anda mengunggah (iPhone dan iPad hanya dinamai "iPhone" atau "iPad"), yang disimpan terpisah dari tag Anda dan tidak pernah dibagikan, agar perangkat Anda yang lain dapat menampilkan asal tag.
 
 ## Berbagi dengan orang yang Anda undang (f/8 Pro)
 
@@ -43,11 +44,11 @@ Untuk mengundang seseorang, Anda memasukkan alamat email orang tersebut. Apple m
 - **Meninggalkan undangan di kotak surat bersama f/8,** yaitu database CloudKit publik yang dikelola Apple untuk f/8. Undangan berisi bentuk acak (hash) dari alamat email orang tersebut, nama berbagi Anda, nama tag, jumlah foto, dan tautan berbagi. Salinan f/8 milik orang tersebut menemukan undangan itu dan menampilkan notifikasi. Undangan dihapus saat Anda menariknya kembali atau menghapus tag dari iCloud.
 - **Mengirim undangan lewat email.** Jika layanan email undangan f/8 aktif, f/8 mengirim alamat email orang tersebut, nama berbagi Anda, nama tag, jumlah foto, apakah mereka boleh mengunduh, catatan Anda, dan tautan berbagi ke layanan tersebut. Layanan ini berjalan di Cloudflare dan mengirim email melalui Resend. Layanan ini menggunakan alamat internet (IP) Anda sebentar untuk mencegah penyalahgunaan, dan tidak menyimpan data apa pun ini setelah email terkirim. Jika layanan nonaktif, f/8 akan membuka email di aplikasi email Anda sendiri agar Anda yang mengirimnya.
 
-f/8 menyimpan daftar orang yang telah menerima undangan Anda di Mac Anda, agar Anda dapat mengundang mereka lagi dengan mudah.
+f/8 menyimpan daftar orang yang telah menerima undangan Anda di perangkat Anda, agar Anda dapat mengundang mereka lagi dengan mudah.
 
 ## Tautan publik (f/8 Pro)
 
-Jika Anda menjadikan tag publik, **siapa pun yang memiliki tautan** dapat melihatnya di f/8 pada Mac yang masuk ke iCloud. Mereka dapat melihat foto, nama, gambar sampul, dan salindianya, serta nama berbagi Anda, tetapi tidak dapat melihat siapa yang Anda undang. Tidak ada yang dapat mengunduh dari tautan publik. Anda akan melihat berapa banyak orang yang telah membukanya. Bagikan tautan publik hanya di tempat yang Anda rela dilihat oleh siapa pun.
+Jika Anda menjadikan tag publik, **siapa pun yang memiliki tautan** dapat melihatnya di f/8 pada perangkat yang masuk ke iCloud. Mereka dapat melihat foto, nama, gambar sampul, dan salindianya, serta nama berbagi Anda, tetapi tidak dapat melihat siapa yang Anda undang. Tidak ada yang dapat mengunduh dari tautan publik. Anda akan melihat berapa banyak orang yang telah membukanya. Bagikan tautan publik hanya di tempat yang Anda rela dilihat oleh siapa pun.
 
 ## Laporan dan moderasi
 
@@ -62,11 +63,11 @@ Hanya moderator f/8 yang dapat membaca laporan. Orang yang dilaporkan tidak dibe
 
 Jika sebuah tag melanggar aturan dalam [Ketentuan Penggunaan]({{terms}}) kami, kami dapat menurunkannya, yang akan menyembunyikannya di setiap salinan f/8. Jika seseorang terus melanggar aturan, kami dapat menurunkan semua tag miliknya. Catatan setiap penurunan, beserta pengenal iCloud pemiliknya, disimpan di database publik agar dapat diterapkan di mana saja. Foto itu sendiri tetap berada di iCloud pemiliknya.
 
-Jika diwajibkan oleh hukum, misalnya untuk konten seksual yang melibatkan anak-anak, kami melaporkan konten tersebut ke polisi atau otoritas terkait. Saat Anda memblokir seseorang, hal itu hanya disimpan di Mac Anda.
+Jika diwajibkan oleh hukum, misalnya untuk konten seksual yang melibatkan anak-anak, kami melaporkan konten tersebut ke polisi atau otoritas terkait. Saat Anda memblokir seseorang, hal itu hanya disimpan di perangkat Anda.
 
 ## Pembelian
 
-f/8 Pro dibeli melalui Mac App Store. Apple yang menangani pembayaran. Kami tidak pernah melihat detail pembayaran Anda, dan f/8 memeriksa langganan Anda dengan Apple di Mac Anda. Lihat [Kebijakan Privasi Apple](https://www.apple.com/legal/privacy/).
+f/8 Pro dibeli melalui App Store. Apple yang menangani pembayaran. Kami tidak pernah melihat detail pembayaran Anda, dan f/8 memeriksa langganan Anda dengan Apple di perangkat Anda. Lihat [Kebijakan Privasi Apple](https://www.apple.com/legal/privacy/).
 
 ## Notifikasi
 
@@ -76,7 +77,7 @@ Jika Anda mengizinkan notifikasi, Apple mengirimkannya ke f/8 saat seseorang men
 
 - f/8 tidak menggunakan analitik, pelaporan kerusakan, iklan, atau pelacakan pihak ketiga.
 - f/8 tidak membaca kontak Anda, tidak menggunakan Layanan Lokasi, dan tidak mengakses kamera atau mikrofon Anda.
-- Musik yang Anda tambahkan ke salindia tetap berada di Mac Anda dan tidak pernah dibagikan. Salindia yang dibagikan hanya dapat menggunakan lagu domain publik milik f/8 sendiri.
+- Musik yang Anda tambahkan ke salindia tetap berada di perangkat Anda dan tidak pernah dibagikan. Salindia yang dibagikan hanya dapat menggunakan lagu domain publik milik f/8 sendiri.
 
 ## Mengapa kami menggunakan data Anda
 
@@ -95,8 +96,8 @@ Perusahaan-perusahaan ini dapat memproses data di luar Inggris, termasuk di Amer
 
 ## Berapa lama kami menyimpannya
 
-- **Di Mac Anda:** sampai Anda menghapusnya atau menghapus data f/8.
-- **Di iCloud:** sampai Anda menghapus tag dari iCloud di f/8 (Cloud › Hapus dari iCloud), atau menghapus data f/8 di Pengaturan Sistem › [nama Anda] › iCloud. Menghapus f/8 dari Mac Anda tidak menghapus apa yang ada di iCloud.
+- **Di perangkat Anda:** sampai Anda menghapusnya atau menghapus f/8.
+- **Di iCloud:** sampai Anda menghapus tag dari iCloud di f/8 (Cloud › Hapus dari iCloud), atau menghapus data f/8 di Pengaturan (Pengaturan Sistem di Mac) › [nama Anda] › iCloud. Menghapus f/8 dari perangkat tidak menghapus apa yang ada di iCloud.
 - **Undangan:** sampai ditarik kembali, atau tag dihapus dari iCloud.
 - **Laporan:** hingga 2 tahun setelah kami menanganinya, agar kami dapat menindak pelanggaran berulang, kecuali kami memerlukannya lebih lama karena alasan hukum.
 - **Catatan penurunan:** selama penurunan tersebut berlaku.
@@ -110,7 +111,7 @@ Anda berhak untuk:
 - membatasi atau menolak cara kami menggunakannya
 - meminta data tersebut dipindahkan ke layanan lain
 
-Sebagian besar data Anda berada di akun iCloud Anda sendiri dan di Mac Anda, tempat Anda mengendalikannya secara langsung. Untuk hal lainnya, hubungi kami di {{contact}}. Jika Anda tidak puas dengan cara kami menangani data Anda, Anda dapat mengajukan keluhan kepada Kantor Komisioner Informasi Inggris (Information Commissioner's Office) di [ico.org.uk](https://ico.org.uk), atau kepada otoritas perlindungan data di tempat Anda tinggal.
+Sebagian besar data Anda berada di akun iCloud Anda sendiri dan di perangkat Anda, tempat Anda mengendalikannya secara langsung. Untuk hal lainnya, hubungi kami di {{contact}}. Jika Anda tidak puas dengan cara kami menangani data Anda, Anda dapat mengajukan keluhan kepada Kantor Komisioner Informasi Inggris (Information Commissioner's Office) di [ico.org.uk](https://ico.org.uk), atau kepada otoritas perlindungan data di tempat Anda tinggal.
 
 ## Anak-anak
 

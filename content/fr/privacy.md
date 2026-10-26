@@ -1,21 +1,22 @@
 ---
 title: Politique de confidentialité de f/8 Portfolio
-description: Comment f/8 Portfolio pour Mac traite vos photos et vos données personnelles.
+description: Comment f/8 Portfolio pour iPhone, iPad et Mac traite vos photos et vos données personnelles.
 ---
 
-**f/8 n’a ni compte, ni outil d’analyse, ni publicité, ni pistage, et ne vend jamais rien qui vous concerne.** Vos photos restent sur votre Mac, sauf si vous choisissez de placer un tag dans iCloud. Ce que vous placez dans iCloud est stocké dans votre propre compte iCloud, et non sur des serveurs que nous exploitons.
+**f/8 n’a ni compte, ni outil d’analyse, ni publicité, ni pistage, et ne vend jamais rien qui vous concerne.** Vos photos restent sur votre appareil, sauf si vous choisissez de placer un tag dans iCloud. Ce que vous placez dans iCloud est stocké dans votre propre compte iCloud, et non sur des serveurs que nous exploitons.
 
 ## Qui nous sommes
 
 f/8 Portfolio (« f/8 ») est conçu par {{company}} (« nous »). Nous sommes le responsable du traitement des données personnelles décrites ici, au sens du Règlement général sur la protection des données du Royaume-Uni (UK GDPR) et de la loi britannique sur la protection des données (Data Protection Act 2018). Vous pouvez nous contacter pour toute question relative à cette politique à l’adresse {{contact}}.
 
-## Sur votre Mac
+## Sur votre appareil
 
-- **Photos.** Avec votre autorisation, f/8 lit les photos que vous choisissez dans votre photothèque Photos ou dans des dossiers de votre Mac. Si une photo est stockée dans Photos iCloud, macOS peut la télécharger pour f/8.
+- **Photos.** Avec votre autorisation, f/8 lit les photos que vous choisissez dans votre photothèque Photos ou dans des dossiers de votre appareil (dans Fichiers sur iPhone et iPad). Si une photo est stockée dans Photos iCloud, votre appareil peut la télécharger pour f/8.
 - **Détails des photos.** Pour taguer vos photos, f/8 lit les détails de chaque photo : sa date de prise de vue, son lieu, sa taille et son format, l’appareil et l’objectif, la focale, l’ouverture, l’exposition et la sensibilité ISO, et s’il s’agit d’une photo favorite, Portrait, HDR, Live ou panoramique.
 - **Noms de lieux.** Pour transformer le lieu d’une photo en un nom de lieu comme « Londres », f/8 envoie les coordonnées de la photo au service de localisation d’Apple, qui renvoie la ville, la région et le pays. f/8 n’utilise pas le Service de localisation et ne vous demande jamais où vous êtes.
-- **Ce que f/8 conserve.** Vos tags, les détails ci-dessus, vos réglages, la musique que vous ajoutez à un diaporama et les copies des photos partagées avec vous sont stockés uniquement sur votre Mac, dans le dossier propre à f/8. Les copies des photos d’autres personnes sont chiffrées, avec une clé conservée dans le trousseau de votre Mac.
-- **Photos sensibles.** Si vous avez activé l’Avertissement de contenu sensible dans macOS, f/8 utilise l’analyse sur l’appareil d’Apple pour flouter les photos susceptibles de contenir de la nudité. L’analyse a lieu entièrement sur votre Mac et rien n’est envoyé nulle part.
+- **Ce que f/8 conserve.** Vos tags, les détails ci-dessus, vos réglages, la musique que vous ajoutez à un diaporama et les copies des photos partagées avec vous sont stockés uniquement sur votre appareil, dans le dossier propre à f/8. Les copies des photos d’autres personnes sont chiffrées, avec une clé conservée dans le trousseau de votre appareil.
+- **Enregistrement et AirPlay.** Lorsque vous enregistrez des photos que quelqu’un a partagées avec vous, f/8 les ajoute à votre photothèque Photos ou à Fichiers, avec votre autorisation. Un diaporama que vous lisez sur un téléviseur y est envoyé directement depuis votre appareil avec AirPlay d’Apple.
+- **Photos sensibles.** Si vous avez activé l’Avertissement de contenu sensible sur votre appareil, f/8 utilise l’analyse sur l’appareil d’Apple pour flouter les photos susceptibles de contenir de la nudité. L’analyse a lieu entièrement sur votre appareil et rien n’est envoyé nulle part.
 
 ## Dans iCloud
 
@@ -24,7 +25,7 @@ Lorsque vous placez un tag dans iCloud, f/8 le stocke dans **votre propre base d
 - les photos, dans la qualité que vous choisissez. **Les positions exactes sont toujours supprimées.** En Qualité réduite, tous les autres détails sont également supprimés. En Qualité d’origine, les détails de prise de vue comme l’appareil, l’objectif et les réglages sont conservés.
 - les détails des photos issus de f/8, sans coordonnées, y compris le nom du lieu.
 - le nom, l’ordre, la qualité et les réglages de diaporama du tag.
-- le nom de chaque Mac depuis lequel vous téléversez, conservé à part de vos tags et jamais partagé, afin que vos autres Mac puissent indiquer d’où vient un tag sous « De vos autres Mac ».
+- le nom de chaque Mac depuis lequel vous téléversez (les iPhone et iPad sont seulement nommés « iPhone » ou « iPad »), conservé à part de vos tags et jamais partagé, afin que vos autres appareils puissent indiquer d’où vient un tag.
 
 ## Partage avec les personnes que vous invitez (f/8 Pro)
 
@@ -43,11 +44,11 @@ Pour inviter quelqu’un, vous saisissez son adresse e-mail. Apple l’utilise p
 - **Dépose une invitation dans la boîte aux lettres partagée de f/8,** une base de données CloudKit publique gérée par Apple pour f/8. L’invitation contient une forme brouillée (hachée) de son adresse e-mail, votre nom de partage, le nom du tag, le nombre de photos et le lien de partage. Son exemplaire de f/8 trouve l’invitation et affiche une notification. Les invitations sont supprimées lorsque vous les retirez ou que vous supprimez le tag d’iCloud.
 - **Envoie l’invitation par e-mail.** Si le service d’e-mail d’invitation de f/8 est activé, f/8 envoie à ce service son adresse e-mail, votre nom de partage, le nom du tag, le nombre de photos, la possibilité ou non de télécharger, votre message et le lien de partage. Ce service fonctionne sur Cloudflare et envoie l’e-mail via Resend. Il utilise brièvement votre adresse Internet (IP) pour prévenir les abus, et il ne conserve aucune de ces données une fois l’e-mail envoyé. Si le service est désactivé, f/8 ouvre à la place un e-mail dans votre propre app de messagerie, que vous envoyez vous-même.
 
-f/8 conserve sur votre Mac une liste des personnes qui ont accepté vos invitations, afin que vous puissiez facilement les inviter à nouveau.
+f/8 conserve sur votre appareil une liste des personnes qui ont accepté vos invitations, afin que vous puissiez facilement les inviter à nouveau.
 
 ## Liens publics (f/8 Pro)
 
-Si vous rendez un tag public, **toute personne disposant du lien** peut le voir dans f/8 sur un Mac connecté à iCloud. Elle voit ses photos, son nom, son image de couverture et son diaporama, ainsi que votre nom de partage, mais pas les personnes que vous avez invitées. Personne ne peut télécharger depuis un lien public. Vous verrez combien de personnes l’ont ouvert. Ne partagez un lien public que là où vous acceptez que n’importe qui puisse le voir.
+Si vous rendez un tag public, **toute personne disposant du lien** peut le voir dans f/8 sur un appareil connecté à iCloud. Elle voit ses photos, son nom, son image de couverture et son diaporama, ainsi que votre nom de partage, mais pas les personnes que vous avez invitées. Personne ne peut télécharger depuis un lien public. Vous verrez combien de personnes l’ont ouvert. Ne partagez un lien public que là où vous acceptez que n’importe qui puisse le voir.
 
 ## Signalements et modération
 
@@ -62,11 +63,11 @@ Seuls les modérateurs de f/8 peuvent lire les signalements. La personne signal�
 
 Si un tag enfreint les règles de nos [Conditions d’utilisation]({{terms}}), nous pouvons le retirer, ce qui le masque dans chaque exemplaire de f/8. Si une personne enfreint les règles de manière répétée, nous pouvons retirer tous ses tags. Une trace de chaque retrait, avec l’identifiant iCloud du propriétaire, est conservée dans la base de données publique afin qu’il puisse s’appliquer partout. Les photos elles-mêmes restent dans l’iCloud du propriétaire.
 
-Lorsque la loi l’exige, par exemple pour du contenu sexuel impliquant des enfants, nous signalons le contenu à la police ou aux autorités compétentes. Lorsque vous bloquez quelqu’un, cette information est stockée uniquement sur votre Mac.
+Lorsque la loi l’exige, par exemple pour du contenu sexuel impliquant des enfants, nous signalons le contenu à la police ou aux autorités compétentes. Lorsque vous bloquez quelqu’un, cette information est stockée uniquement sur votre appareil.
 
 ## Achats
 
-f/8 Pro s’achète sur le Mac App Store. Apple gère le paiement. Nous ne voyons jamais vos informations de paiement, et f/8 vérifie votre abonnement auprès d’Apple sur votre Mac. Consultez la [Politique de confidentialité d’Apple](https://www.apple.com/legal/privacy/).
+f/8 Pro s’achète sur l’App Store. Apple gère le paiement. Nous ne voyons jamais vos informations de paiement, et f/8 vérifie votre abonnement auprès d’Apple sur votre appareil. Consultez la [Politique de confidentialité d’Apple](https://www.apple.com/legal/privacy/).
 
 ## Notifications
 
@@ -76,7 +77,7 @@ Si vous autorisez les notifications, Apple les transmet à f/8 lorsque quelqu’
 
 - f/8 n’utilise ni outil d’analyse, ni rapport de plantage, ni publicité, ni pistage par des tiers.
 - Il ne lit pas vos contacts, n’utilise pas le Service de localisation et n’accède ni à votre caméra ni à votre micro.
-- La musique que vous ajoutez à un diaporama reste sur votre Mac et n’est jamais partagée. Les diaporamas partagés ne peuvent utiliser que les morceaux du domaine public propres à f/8.
+- La musique que vous ajoutez à un diaporama reste sur votre appareil et n’est jamais partagée. Les diaporamas partagés ne peuvent utiliser que les morceaux du domaine public propres à f/8.
 
 ## Pourquoi nous utilisons vos données
 
@@ -95,8 +96,8 @@ Ces entreprises peuvent traiter des données en dehors du Royaume-Uni, y compris
 
 ## Durée de conservation
 
-- **Sur votre Mac :** jusqu’à ce que vous les supprimiez ou que vous supprimiez les données de f/8.
-- **Dans iCloud :** jusqu’à ce que vous supprimiez le tag d’iCloud dans f/8 (Cloud › Supprimer d’iCloud), ou que vous supprimiez les données de f/8 dans Réglages Système › [votre nom] › iCloud. Supprimer f/8 de votre Mac ne supprime pas ce qui se trouve dans iCloud.
+- **Sur votre appareil :** jusqu’à ce que vous les supprimiez ou que vous supprimiez f/8.
+- **Dans iCloud :** jusqu’à ce que vous supprimiez le tag d’iCloud dans f/8 (Cloud › Supprimer d’iCloud), ou que vous supprimiez les données de f/8 dans Réglages (Réglages Système sur un Mac) › [votre nom] › iCloud. Supprimer f/8 d’un appareil ne supprime pas ce qui se trouve dans iCloud.
 - **Invitations :** jusqu’à ce qu’elles soient retirées ou que le tag soit supprimé d’iCloud.
 - **Signalements :** jusqu’à 2 ans après leur traitement, afin que nous puissions agir en cas d’infractions répétées, sauf si nous devons les conserver plus longtemps pour des raisons légales.
 - **Traces des retraits :** aussi longtemps que le retrait s’applique.
@@ -110,7 +111,7 @@ Vous avez le droit :
 - de limiter la manière dont nous les utilisons ou de vous y opposer
 - de les faire transférer vers un autre service
 
-La plupart de vos données se trouvent dans votre propre compte iCloud et sur votre Mac, où vous les contrôlez directement. Pour tout le reste, contactez-nous à l’adresse {{contact}}. Si vous n’êtes pas satisfait de la manière dont nous avons traité vos données, vous pouvez déposer une plainte auprès de l’autorité britannique de protection des données (Information Commissioner’s Office) sur [ico.org.uk](https://ico.org.uk), ou auprès de l’autorité de protection des données de votre lieu de résidence.
+La plupart de vos données se trouvent dans votre propre compte iCloud et sur vos appareils, où vous les contrôlez directement. Pour tout le reste, contactez-nous à l’adresse {{contact}}. Si vous n’êtes pas satisfait de la manière dont nous avons traité vos données, vous pouvez déposer une plainte auprès de l’autorité britannique de protection des données (Information Commissioner’s Office) sur [ico.org.uk](https://ico.org.uk), ou auprès de l’autorité de protection des données de votre lieu de résidence.
 
 ## Enfants
 

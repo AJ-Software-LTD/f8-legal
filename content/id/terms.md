@@ -1,6 +1,6 @@
 ---
 title: Ketentuan Penggunaan f/8 Portfolio
-description: Ketentuan penggunaan f/8 Portfolio untuk Mac, f/8 Pro, dan berbagi.
+description: Ketentuan penggunaan f/8 Portfolio untuk iPhone, iPad, dan Mac, f/8 Pro, dan berbagi.
 ---
 
 Ketentuan ini berlaku saat Anda menggunakan f/8 Portfolio ("f/8"), yang dibuat oleh {{company}} ("kami"). Dengan menggunakan f/8, Anda menyetujuinya. Harap baca ketentuan ini bersama [Kebijakan Privasi]({{privacy}}) kami.
@@ -11,7 +11,7 @@ Lisensi Anda untuk menggunakan f/8 diatur oleh **[Perjanjian Lisensi Pengguna Ak
 
 ## 2. Basic dan f/8 Pro
 
-- **Basic gratis.** f/8 Pro adalah langganan opsional, bulanan atau tahunan, yang dibeli melalui Mac App Store. f/8 Pro menambahkan:
+- **Basic gratis.** f/8 Pro adalah langganan opsional, bulanan atau tahunan, yang dibeli melalui App Store. Satu langganan mencakup iPhone, iPad, dan Mac Anda. f/8 Pro menambahkan:
   - berbagi tag dan salindia, serta tautan publik
   - unggahan dalam Kualitas Asli
   - tag khusus tanpa batas

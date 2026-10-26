@@ -1,6 +1,6 @@
 ---
 title: Điều khoản sử dụng f/8 Portfolio
-description: Các điều khoản sử dụng f/8 Portfolio cho Mac, f/8 Pro và tính năng chia sẻ.
+description: Các điều khoản sử dụng f/8 Portfolio cho iPhone, iPad và Mac, f/8 Pro và tính năng chia sẻ.
 ---
 
 Các điều khoản này áp dụng khi bạn sử dụng f/8 Portfolio ("f/8"), do {{company}} ("chúng tôi") phát triển. Khi sử dụng f/8, bạn đồng ý với các điều khoản này. Vui lòng đọc chúng cùng với [Chính sách quyền riêng tư]({{privacy}}) của chúng tôi.
@@ -11,7 +11,7 @@ Giấy phép sử dụng f/8 của bạn được điều chỉnh bởi **[Thỏ
 
 ## 2. Basic và f/8 Pro
 
-- **Basic miễn phí.** f/8 Pro là gói đăng ký tùy chọn, theo tháng hoặc theo năm, được mua qua Mac App Store. Gói này bổ sung:
+- **Basic miễn phí.** f/8 Pro là gói đăng ký tùy chọn, theo tháng hoặc theo năm, được mua qua App Store. Một gói đăng ký dùng được cho iPhone, iPad và máy Mac của bạn. Gói này bổ sung:
   - chia sẻ thẻ và trình chiếu, cùng liên kết công khai
   - tải lên ở Chất lượng gốc
   - thẻ tùy chỉnh không giới hạn

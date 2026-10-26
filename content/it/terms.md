@@ -1,6 +1,6 @@
 ---
 title: Termini di utilizzo di f/8 Portfolio
-description: I termini per l’uso di f/8 Portfolio per Mac, di f/8 Pro e della condivisione.
+description: I termini per l’uso di f/8 Portfolio per iPhone, iPad e Mac, di f/8 Pro e della condivisione.
 ---
 
 Questi termini si applicano quando usa f/8 Portfolio («f/8»), realizzato da {{company}} («noi»). Usando f/8, Lei li accetta. La preghiamo di leggerli insieme alla nostra [Informativa sulla privacy]({{privacy}}).
@@ -11,7 +11,7 @@ La Sua licenza d’uso di f/8 è disciplinata dal **[Contratto di licenza con l�
 
 ## 2. Basic e f/8 Pro
 
-- **Basic è gratuito.** f/8 Pro è un abbonamento facoltativo, mensile o annuale, acquistato tramite il Mac App Store. Aggiunge:
+- **Basic è gratuito.** f/8 Pro è un abbonamento facoltativo, mensile o annuale, acquistato tramite l’App Store. Un solo abbonamento vale per il Suo iPhone, iPad e Mac. Aggiunge:
   - la condivisione di tag e presentazioni, e i link pubblici
   - i caricamenti in Qualità originale
   - tag personalizzati illimitati

@@ -1,21 +1,22 @@
 ---
 title: Chính sách quyền riêng tư của f/8 Portfolio
-description: Cách f/8 Portfolio cho Mac xử lý ảnh và dữ liệu cá nhân của bạn.
+description: Cách f/8 Portfolio cho iPhone, iPad và Mac xử lý ảnh và dữ liệu cá nhân của bạn.
 ---
 
-**f/8 không có tài khoản, không có phân tích, không có quảng cáo và không theo dõi, và không bao giờ bán bất cứ điều gì về bạn.** Ảnh của bạn ở lại trên máy Mac của bạn, trừ khi bạn chọn đưa một thẻ lên iCloud, và những gì bạn đưa lên iCloud được lưu trong tài khoản iCloud của chính bạn, không phải trên máy chủ do chúng tôi vận hành.
+**f/8 không có tài khoản, không có phân tích, không có quảng cáo và không theo dõi, và không bao giờ bán bất cứ điều gì về bạn.** Ảnh của bạn ở lại trên thiết bị của bạn, trừ khi bạn chọn đưa một thẻ lên iCloud, và những gì bạn đưa lên iCloud được lưu trong tài khoản iCloud của chính bạn, không phải trên máy chủ do chúng tôi vận hành.
 
 ## Chúng tôi là ai
 
 f/8 Portfolio ("f/8") do {{company}} ("chúng tôi") phát triển. Chúng tôi là bên kiểm soát dữ liệu cá nhân được mô tả ở đây, theo Quy định chung về bảo vệ dữ liệu của Vương quốc Anh (UK GDPR) và Đạo luật Bảo vệ dữ liệu 2018 (Data Protection Act 2018). Bạn có thể liên hệ với chúng tôi về bất cứ điều gì trong chính sách này tại {{contact}}.
 
-## Trên máy Mac của bạn
+## Trên thiết bị của bạn
 
-- **Ảnh.** Khi được bạn cho phép, f/8 đọc những ảnh bạn chọn từ thư viện Ảnh hoặc từ các thư mục trên máy Mac của bạn. Nếu một ảnh được lưu trong Ảnh iCloud, macOS có thể tải ảnh đó về cho f/8.
+- **Ảnh.** Khi được bạn cho phép, f/8 đọc những ảnh bạn chọn từ thư viện Ảnh hoặc từ các thư mục trên thiết bị của bạn (trong Tệp trên iPhone và iPad). Nếu một ảnh được lưu trong Ảnh iCloud, thiết bị của bạn có thể tải ảnh đó về cho f/8.
 - **Chi tiết ảnh.** Để gắn thẻ ảnh của bạn, f/8 đọc chi tiết của từng ảnh: ngày chụp, vị trí, kích thước và định dạng, máy ảnh và ống kính, tiêu cự, khẩu độ, phơi sáng và ISO, và ảnh đó có phải là ảnh yêu thích, Chân dung, HDR, Live hay toàn cảnh không.
 - **Tên địa điểm.** Để chuyển vị trí của ảnh thành tên địa điểm như "London", f/8 gửi tọa độ của ảnh đến dịch vụ vị trí của Apple, dịch vụ này trả về thành phố, vùng và quốc gia. f/8 không dùng Dịch vụ định vị và không bao giờ hỏi bạn đang ở đâu.
-- **Những gì f/8 lưu giữ.** Các thẻ của bạn, các chi tiết nêu trên, cài đặt của bạn, nhạc bạn thêm vào trình chiếu, và bản sao của những ảnh được chia sẻ với bạn chỉ được lưu trên máy Mac của bạn, trong thư mục riêng của f/8. Bản sao ảnh của người khác được mã hóa, với khóa được giữ trong Chuỗi khóa trên máy Mac của bạn.
-- **Ảnh nhạy cảm.** Nếu bạn đã bật Cảnh báo nội dung nhạy cảm trong macOS, f/8 dùng tính năng phân tích trên thiết bị của Apple để làm mờ những ảnh có thể chứa nội dung khỏa thân. Việc phân tích diễn ra hoàn toàn trên máy Mac của bạn và không có gì được gửi đi đâu cả.
+- **Những gì f/8 lưu giữ.** Các thẻ của bạn, các chi tiết nêu trên, cài đặt của bạn, nhạc bạn thêm vào trình chiếu, và bản sao của những ảnh được chia sẻ với bạn chỉ được lưu trên thiết bị của bạn, trong thư mục riêng của f/8. Bản sao ảnh của người khác được mã hóa, với khóa được giữ trong Chuỗi khóa trên thiết bị của bạn.
+- **Lưu và AirPlay.** Khi bạn lưu những ảnh ai đó đã chia sẻ với bạn, f/8 thêm chúng vào thư viện Ảnh hoặc Tệp của bạn, khi được bạn cho phép. Trình chiếu bạn phát trên TV được truyền thẳng từ thiết bị của bạn đến đó bằng AirPlay của Apple.
+- **Ảnh nhạy cảm.** Nếu bạn đã bật Cảnh báo nội dung nhạy cảm trên thiết bị của bạn, f/8 dùng tính năng phân tích trên thiết bị của Apple để làm mờ những ảnh có thể chứa nội dung khỏa thân. Việc phân tích diễn ra hoàn toàn trên thiết bị của bạn và không có gì được gửi đi đâu cả.
 
 ## Trên iCloud
 
@@ -24,7 +25,7 @@ Khi bạn đưa một thẻ lên iCloud, f/8 lưu thẻ đó trong **cơ sở d�
 - các ảnh, ở chất lượng bạn chọn. **Vị trí chính xác luôn bị xóa.** Ở Chất lượng giảm, mọi chi tiết khác cũng bị xóa. Ở Chất lượng gốc, các chi tiết về máy ảnh như máy ảnh, ống kính và thông số chụp được giữ lại.
 - chi tiết ảnh từ f/8, không có tọa độ, bao gồm tên địa điểm.
 - tên, thứ tự, chất lượng và cài đặt trình chiếu của thẻ.
-- tên của từng máy Mac mà bạn tải lên từ đó, được lưu riêng với các thẻ của bạn và không bao giờ được chia sẻ, để các máy Mac khác của bạn có thể hiển thị nguồn gốc của thẻ trong mục "Từ các máy Mac khác của bạn".
+- tên của từng máy Mac mà bạn tải lên từ đó (iPhone và iPad chỉ được gọi là "iPhone" hoặc "iPad"), được lưu riêng với các thẻ của bạn và không bao giờ được chia sẻ, để các thiết bị khác của bạn có thể hiển thị nguồn gốc của thẻ.
 
 ## Chia sẻ với những người bạn mời (f/8 Pro)
 
@@ -43,11 +44,11 @@ f/8 ghi lại ai được phép tải xuống và ai được mời xem trình c
 - **Để lại lời mời trong hộp thư chung của f/8,** một cơ sở dữ liệu CloudKit công khai do Apple vận hành cho f/8. Lời mời chứa dạng đã xáo trộn (băm) của địa chỉ email của họ, tên chia sẻ của bạn, tên thẻ, số lượng ảnh và liên kết chia sẻ. Ứng dụng f/8 của họ tìm thấy lời mời và hiển thị thông báo. Lời mời bị xóa khi bạn rút lại lời mời hoặc xóa thẻ khỏi iCloud.
 - **Gửi lời mời qua email.** Nếu dịch vụ email mời của f/8 đang bật, f/8 gửi địa chỉ email của họ, tên chia sẻ của bạn, tên thẻ, số lượng ảnh, việc họ có được tải xuống hay không, ghi chú của bạn và liên kết chia sẻ đến dịch vụ đó. Dịch vụ chạy trên Cloudflare và gửi email qua Resend. Dịch vụ dùng tạm địa chỉ internet (IP) của bạn để ngăn chặn lạm dụng, và không lưu bất kỳ thông tin nào trong số này sau khi email được gửi. Nếu dịch vụ đang tắt, f/8 sẽ mở một email trong ứng dụng thư của chính bạn để bạn tự gửi.
 
-f/8 giữ danh sách những người đã chấp nhận lời mời của bạn trên máy Mac của bạn, để bạn có thể dễ dàng mời lại họ.
+f/8 giữ danh sách những người đã chấp nhận lời mời của bạn trên thiết bị của bạn, để bạn có thể dễ dàng mời lại họ.
 
 ## Liên kết công khai (f/8 Pro)
 
-Nếu bạn đặt một thẻ ở chế độ công khai, **bất kỳ ai có liên kết** đều có thể xem thẻ đó trong f/8 trên máy Mac đã đăng nhập iCloud. Họ có thể xem ảnh, tên, ảnh bìa và trình chiếu của thẻ, cùng tên chia sẻ của bạn, nhưng không thấy bạn đã mời những ai. Không ai có thể tải xuống từ liên kết công khai. Bạn sẽ thấy có bao nhiêu người đã mở liên kết. Chỉ chia sẻ liên kết công khai ở những nơi bạn sẵn lòng để bất kỳ ai cũng thấy.
+Nếu bạn đặt một thẻ ở chế độ công khai, **bất kỳ ai có liên kết** đều có thể xem thẻ đó trong f/8 trên thiết bị đã đăng nhập iCloud. Họ có thể xem ảnh, tên, ảnh bìa và trình chiếu của thẻ, cùng tên chia sẻ của bạn, nhưng không thấy bạn đã mời những ai. Không ai có thể tải xuống từ liên kết công khai. Bạn sẽ thấy có bao nhiêu người đã mở liên kết. Chỉ chia sẻ liên kết công khai ở những nơi bạn sẵn lòng để bất kỳ ai cũng thấy.
 
 ## Báo cáo và kiểm duyệt
 
@@ -62,11 +63,11 @@ Chỉ người kiểm duyệt của f/8 mới có thể đọc báo cáo. Ngư�
 
 Nếu một thẻ vi phạm các quy định trong [Điều khoản sử dụng]({{terms}}) của chúng tôi, chúng tôi có thể gỡ thẻ đó, khiến thẻ bị ẩn trong mọi bản f/8. Nếu ai đó liên tục vi phạm quy định, chúng tôi có thể gỡ tất cả các thẻ của họ. Hồ sơ của mỗi lần gỡ, kèm mã định danh iCloud của chủ sở hữu, được lưu trong cơ sở dữ liệu công khai để có thể áp dụng ở mọi nơi. Bản thân các ảnh vẫn ở trong iCloud của chủ sở hữu.
 
-Khi pháp luật yêu cầu, chẳng hạn đối với nội dung tình dục liên quan đến trẻ em, chúng tôi báo cáo nội dung cho cảnh sát hoặc cơ quan có thẩm quyền liên quan. Khi bạn chặn ai đó, thông tin này chỉ được lưu trên máy Mac của bạn.
+Khi pháp luật yêu cầu, chẳng hạn đối với nội dung tình dục liên quan đến trẻ em, chúng tôi báo cáo nội dung cho cảnh sát hoặc cơ quan có thẩm quyền liên quan. Khi bạn chặn ai đó, thông tin này chỉ được lưu trên thiết bị của bạn.
 
 ## Mua hàng
 
-f/8 Pro được mua qua Mac App Store. Apple xử lý việc thanh toán. Chúng tôi không bao giờ thấy thông tin thanh toán của bạn, và f/8 kiểm tra gói đăng ký của bạn với Apple ngay trên máy Mac của bạn. Xem [Chính sách quyền riêng tư của Apple](https://www.apple.com/legal/privacy/).
+f/8 Pro được mua qua App Store. Apple xử lý việc thanh toán. Chúng tôi không bao giờ thấy thông tin thanh toán của bạn, và f/8 kiểm tra gói đăng ký của bạn với Apple ngay trên thiết bị của bạn. Xem [Chính sách quyền riêng tư của Apple](https://www.apple.com/legal/privacy/).
 
 ## Thông báo
 
@@ -76,7 +77,7 @@ Nếu bạn cho phép thông báo, Apple sẽ gửi chúng đến f/8 khi có ng
 
 - f/8 không dùng phân tích, báo cáo sự cố, quảng cáo hay theo dõi của bên thứ ba.
 - f/8 không đọc danh bạ của bạn, không dùng Dịch vụ định vị, và không truy cập camera hay micrô của bạn.
-- Nhạc bạn thêm vào trình chiếu ở lại trên máy Mac của bạn và không bao giờ được chia sẻ. Trình chiếu được chia sẻ chỉ có thể dùng các bản nhạc thuộc phạm vi công cộng của riêng f/8.
+- Nhạc bạn thêm vào trình chiếu ở lại trên thiết bị của bạn và không bao giờ được chia sẻ. Trình chiếu được chia sẻ chỉ có thể dùng các bản nhạc thuộc phạm vi công cộng của riêng f/8.
 
 ## Vì sao chúng tôi sử dụng dữ liệu của bạn
 
@@ -95,8 +96,8 @@ Các công ty này có thể xử lý dữ liệu bên ngoài Vương quốc Anh
 
 ## Chúng tôi lưu giữ dữ liệu trong bao lâu
 
-- **Trên máy Mac của bạn:** cho đến khi bạn xóa dữ liệu hoặc xóa dữ liệu của f/8.
-- **Trên iCloud:** cho đến khi bạn xóa thẻ khỏi iCloud trong f/8 (Đám mây › Xóa khỏi iCloud), hoặc xóa dữ liệu của f/8 trong Cài đặt hệ thống › [tên của bạn] › iCloud. Xóa f/8 khỏi máy Mac không xóa những gì có trên iCloud.
+- **Trên thiết bị của bạn:** cho đến khi bạn xóa dữ liệu hoặc xóa f/8.
+- **Trên iCloud:** cho đến khi bạn xóa thẻ khỏi iCloud trong f/8 (Đám mây › Xóa khỏi iCloud), hoặc xóa dữ liệu của f/8 trong Cài đặt (Cài đặt hệ thống trên máy Mac) › [tên của bạn] › iCloud. Xóa f/8 khỏi một thiết bị không xóa những gì có trên iCloud.
 - **Lời mời:** cho đến khi lời mời bị rút lại, hoặc thẻ bị xóa khỏi iCloud.
 - **Báo cáo:** tối đa 2 năm sau khi chúng tôi xử lý xong, để chúng tôi có thể xử lý các vi phạm lặp lại, trừ khi chúng tôi cần giữ lâu hơn vì lý do pháp lý.
 - **Hồ sơ gỡ nội dung:** trong thời gian việc gỡ còn hiệu lực.
@@ -110,7 +111,7 @@ Bạn có quyền:
 - hạn chế hoặc phản đối cách chúng tôi sử dụng dữ liệu
 - yêu cầu chuyển dữ liệu sang dịch vụ khác
 
-Phần lớn dữ liệu của bạn nằm trong tài khoản iCloud của chính bạn và trên máy Mac của bạn, nơi bạn trực tiếp kiểm soát. Đối với mọi vấn đề khác, hãy liên hệ với chúng tôi tại {{contact}}. Nếu bạn không hài lòng với cách chúng tôi xử lý dữ liệu của bạn, bạn có thể khiếu nại với Văn phòng Ủy viên Thông tin Vương quốc Anh (Information Commissioner's Office) tại [ico.org.uk](https://ico.org.uk), hoặc với cơ quan bảo vệ dữ liệu nơi bạn sinh sống.
+Phần lớn dữ liệu của bạn nằm trong tài khoản iCloud của chính bạn và trên các thiết bị của bạn, nơi bạn trực tiếp kiểm soát. Đối với mọi vấn đề khác, hãy liên hệ với chúng tôi tại {{contact}}. Nếu bạn không hài lòng với cách chúng tôi xử lý dữ liệu của bạn, bạn có thể khiếu nại với Văn phòng Ủy viên Thông tin Vương quốc Anh (Information Commissioner's Office) tại [ico.org.uk](https://ico.org.uk), hoặc với cơ quan bảo vệ dữ liệu nơi bạn sinh sống.
 
 ## Trẻ em
 

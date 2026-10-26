@@ -1,6 +1,6 @@
 # f/8 Portfolio: Privacy Policy and Terms of Use
 
-The public Privacy Policy and Terms of Use for f/8 Portfolio for Mac, in English and the 20 languages f/8 is
+The public Privacy Policy and Terms of Use for f/8 Portfolio for iPhone, iPad and Mac, in English and the 20 languages f/8 is
 translated into, served by GitHub Pages at https://built-by-aj.github.io/f8-legal/.
 
 - `/privacy/` and `/terms/` send each visitor to their own language.

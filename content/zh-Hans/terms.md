@@ -1,6 +1,6 @@
 ---
 title: f/8 Portfolio 使用条款
-description: 使用适用于 Mac 的 f/8 Portfolio、f/8 Pro 以及共享功能的条款。
+description: 使用适用于 iPhone、iPad 和 Mac 的 f/8 Portfolio、f/8 Pro 以及共享功能的条款。
 ---
 
 当你使用由 {{company}}（“我们”）开发的 f/8 Portfolio（“f/8”）时，适用本条款。使用 f/8 即表示你同意本条款。请与我们的[隐私政策]({{privacy}})一并阅读。
@@ -11,7 +11,7 @@ description: 使用适用于 Mac 的 f/8 Portfolio、f/8 Pro 以及共享功能�
 
 ## 2. 基础版和 f/8 Pro
 
-- **基础版免费**。f/8 Pro 是一项可选订阅，按月或按年订阅，通过 Mac App Store 购买。它增加了：
+- **基础版免费**。f/8 Pro 是一项可选订阅，按月或按年订阅，通过 App Store 购买。一份订阅即可用于你的 iPhone、iPad 和 Mac。它增加了：
   - 共享标签和幻灯片放映，以及公开链接
   - 以原始质量上传
   - 不限数量的自定标签

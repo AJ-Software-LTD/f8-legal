@@ -1,6 +1,6 @@
 ---
 title: Conditions d’utilisation de f/8 Portfolio
-description: Les conditions d’utilisation de f/8 Portfolio pour Mac, de f/8 Pro et du partage.
+description: Les conditions d’utilisation de f/8 Portfolio pour iPhone, iPad et Mac, de f/8 Pro et du partage.
 ---
 
 Ces conditions s’appliquent lorsque vous utilisez f/8 Portfolio (« f/8 »), conçu par {{company}} (« nous »). En utilisant f/8, vous les acceptez. Veuillez les lire avec notre [Politique de confidentialité]({{privacy}}).
@@ -11,7 +11,7 @@ Votre licence d’utilisation de f/8 est régie par le **[Contrat de licence de 
 
 ## 2. Basique et f/8 Pro
 
-- **Basique est gratuit.** f/8 Pro est un abonnement facultatif, mensuel ou annuel, acheté sur le Mac App Store. Il ajoute :
+- **Basique est gratuit.** f/8 Pro est un abonnement facultatif, mensuel ou annuel, acheté sur l’App Store. Un seul abonnement couvre votre iPhone, votre iPad et votre Mac. Il ajoute :
   - le partage de tags et de diaporamas, et les liens publics
   - les envois en Qualité d’origine
   - des tags personnalisés illimités

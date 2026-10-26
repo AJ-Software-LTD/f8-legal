@@ -1,6 +1,6 @@
 ---
 title: f/8 Portfolio Kullanım Koşulları
-description: Mac için f/8 Portfolio, f/8 Pro ve paylaşma için kullanım koşulları.
+description: iPhone, iPad ve Mac için f/8 Portfolio, f/8 Pro ve paylaşma için kullanım koşulları.
 ---
 
 Bu koşullar, {{company}} ("biz") tarafından geliştirilen f/8 Portfolio'yu ("f/8") kullandığınızda geçerlidir. f/8'i kullanarak bu koşulları kabul etmiş olursunuz. Lütfen bunları [Gizlilik Politikamızla]({{privacy}}) birlikte okuyun.
@@ -11,7 +11,7 @@ f/8'i kullanma lisansınız, **Apple'ın [Lisanslı Uygulama Son Kullanıcı Lis
 
 ## 2. Basic ve f/8 Pro
 
-- **Basic ücretsizdir.** f/8 Pro; aylık veya yıllık, Mac App Store üzerinden satın alınan isteğe bağlı bir aboneliktir. Şunları ekler:
+- **Basic ücretsizdir.** f/8 Pro; aylık veya yıllık, App Store üzerinden satın alınan isteğe bağlı bir aboneliktir. Tek abonelik iPhone'unuzu, iPad'inizi ve Mac'inizi kapsar. Şunları ekler:
   - etiketleri ve slayt sunularını paylaşma ve herkese açık bağlantılar
   - Orijinal Kalite'de yükleme
   - sınırsız özel etiket

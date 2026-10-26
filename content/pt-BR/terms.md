@@ -1,6 +1,6 @@
 ---
 title: Termos de Uso do f/8 Portfolio
-description: Os termos de uso do f/8 Portfolio para Mac, do f/8 Pro e do compartilhamento.
+description: Os termos de uso do f/8 Portfolio para iPhone, iPad e Mac, do f/8 Pro e do compartilhamento.
 ---
 
 Estes termos se aplicam quando você usa o f/8 Portfolio ("f/8"), feito por {{company}} ("nós"). Ao usar o f/8, você concorda com eles. Leia-os junto com a nossa [Política de Privacidade]({{privacy}}).
@@ -11,7 +11,7 @@ Sua licença de uso do f/8 é regida pelo **[Contrato de Licença de Usuário Fi
 
 ## 2. Básico e f/8 Pro
 
-- **O Básico é grátis.** O f/8 Pro é uma assinatura opcional, mensal ou anual, comprada pela Mac App Store. Ele acrescenta:
+- **O Básico é grátis.** O f/8 Pro é uma assinatura opcional, mensal ou anual, comprada pela App Store. Uma só assinatura vale para o seu iPhone, iPad e Mac. Ele acrescenta:
   - compartilhamento de etiquetas e apresentações, e links públicos
   - envios em Qualidade Original
   - etiquetas personalizadas ilimitadas
