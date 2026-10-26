@@ -24,7 +24,7 @@ Bir etiketi iCloud'a koyduğunuzda f/8 onu, Apple'ın CloudKit'ini kullanarak **
 - seçtiğiniz kalitedeki fotoğraflar. **Kesin konumlar her zaman kaldırılır.** Düşük Kalite'de diğer tüm ayrıntılar da kaldırılır. Orijinal Kalite'de fotoğraf makinesi, objektif ve ayarlar gibi çekim ayrıntıları korunur.
 - f/8'den gelen fotoğraf ayrıntıları, koordinatlar olmadan, yer adı dahil.
 - etiketin adı, sırası, kalitesi ve slayt sunusu ayarları.
-- etiketin geldiği Mac'in adı; böylece diğer Mac'leriniz onu "Diğer Mac’lerinizden" altında gösterebilir.
+- yükleme yaptığınız her Mac'in adı; etiketlerinizden ayrı tutulur ve asla paylaşılmaz; böylece diğer Mac'leriniz bir etiketin nereden geldiğini "Diğer Mac’lerinizden" altında gösterebilir.
 
 ## Davet ettiğiniz kişilerle paylaşma (f/8 Pro)
 
@@ -33,19 +33,21 @@ Bir etiketi paylaştığınızda davet ettiğiniz kişiler şunları görebilir:
 - fotoğraflarını
 - adını
 - kapak görüntüsünü ve slayt sunusunu
-- Mac'inizde ayarlandığı şekliyle adınızı
-- davet edilen kişilerin e-posta adreslerini ve kimlerin indirebileceğini
+- paylaşım yaparken kullandığınız adı: adınızı ya da Ayarlar › Paylaşım bölümünde seçtiğiniz bir adı. f/8 tam adınızı asla paylaşmaz.
+- davet edilen diğer kişileri, Apple'ın iCloud'unun onları birbirine gösterdiği şekliyle
+
+f/8, kimlerin indirebileceğini ve kimlerin bir slayt sunusunu izlemeye davet edildiğini karıştırılmış (hash'lenmiş) bir biçimde kaydeder; böylece bu listeler kimsenin e-posta adresini açığa çıkarmaz.
 
 Birini davet etmek için e-posta adresini girersiniz. Apple bu adresi, kişinin iCloud hesabını bulmak ve onu paylaşıma eklemek için kullanır. Ardından f/8:
 
-- **f/8'in ortak posta kutusuna bir davet bırakır.** Bu, Apple'ın f/8 için işlettiği herkese açık bir CloudKit veri tabanıdır. Davette kişinin e-posta adresinin karıştırılmış (hash'lenmiş) bir biçimi, adınız, etiketin adı, fotoğraf sayısı ve paylaşım bağlantısı bulunur. Kişinin f/8 kopyası daveti bulur ve bir bildirim gösterir. Davetler, onları geri çektiğinizde veya etiketi iCloud'dan kaldırdığınızda silinir.
-- **Daveti e-postayla gönderir.** f/8'in davet e-postası hizmeti açıksa f/8 bu hizmete kişinin e-posta adresini, adınızı, etiketin adını, fotoğraf sayısını, kişinin indirip indiremeyeceğini, notunuzu ve paylaşım bağlantısını gönderir. Hizmet Cloudflare üzerinde çalışır ve e-postayı Resend aracılığıyla gönderir. Kötüye kullanımı önlemek için internet (IP) adresinizi kısa süreliğine kullanır ve e-posta gönderildikten sonra bunların hiçbirini saklamaz. Hizmet kapalıysa f/8 bunun yerine, sizin göndermeniz için kendi e-posta uygulamanızda bir e-posta açar.
+- **f/8'in ortak posta kutusuna bir davet bırakır.** Bu, Apple'ın f/8 için işlettiği herkese açık bir CloudKit veri tabanıdır. Davette kişinin e-posta adresinin karıştırılmış (hash'lenmiş) bir biçimi, paylaşım adınız, etiketin adı, fotoğraf sayısı ve paylaşım bağlantısı bulunur. Kişinin f/8 kopyası daveti bulur ve bir bildirim gösterir. Davetler, onları geri çektiğinizde veya etiketi iCloud'dan kaldırdığınızda silinir.
+- **Daveti e-postayla gönderir.** f/8'in davet e-postası hizmeti açıksa f/8 bu hizmete kişinin e-posta adresini, paylaşım adınızı, etiketin adını, fotoğraf sayısını, kişinin indirip indiremeyeceğini, notunuzu ve paylaşım bağlantısını gönderir. Hizmet Cloudflare üzerinde çalışır ve e-postayı Resend aracılığıyla gönderir. Kötüye kullanımı önlemek için internet (IP) adresinizi kısa süreliğine kullanır ve e-posta gönderildikten sonra bunların hiçbirini saklamaz. Hizmet kapalıysa f/8 bunun yerine, sizin göndermeniz için kendi e-posta uygulamanızda bir e-posta açar.
 
 f/8, davetlerinizi kabul eden kişilerin listesini Mac'inizde tutar; böylece onları kolayca yeniden davet edebilirsiniz.
 
 ## Herkese açık bağlantılar (f/8 Pro)
 
-Bir etiketi herkese açık yaparsanız **bağlantıya sahip herkes**, iCloud'a giriş yapılmış bir Mac'te onu f/8'de görüntüleyebilir. Bu kişiler, davet ettiğiniz birinin görebildiklerinin aynısını görebilir. Herkese açık bir bağlantıdan kimse indirme yapamaz. Bağlantıyı kaç kişinin açtığını görürsünüz. Herkese açık bir bağlantıyı yalnızca herkesin görmesinden rahatsız olmayacağınız yerlerde paylaşın.
+Bir etiketi herkese açık yaparsanız **bağlantıya sahip herkes**, iCloud'a giriş yapılmış bir Mac'te onu f/8'de görüntüleyebilir. Bu kişiler etiketin fotoğraflarını, adını, kapak görüntüsünü, slayt sunusunu ve paylaşım adınızı görebilir, ancak kimleri davet ettiğinizi göremez. Herkese açık bir bağlantıdan kimse indirme yapamaz. Bağlantıyı kaç kişinin açtığını görürsünüz. Herkese açık bir bağlantıyı yalnızca herkesin görmesinden rahatsız olmayacağınız yerlerde paylaşın.
 
 ## Raporlar ve moderasyon
 

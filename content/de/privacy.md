@@ -24,7 +24,7 @@ Wenn Sie ein Tag in iCloud ablegen, speichert f/8 es mithilfe von Apples CloudKi
 - die Fotos in der von Ihnen gewählten Qualität. **Genaue Standorte werden immer entfernt.** Bei „Reduzierte Qualität“ werden auch alle anderen Details entfernt. Bei „Originalqualität“ bleiben Kameradetails wie Kamera, Objektiv und Einstellungen erhalten.
 - die Details der Fotos aus f/8, ohne Koordinaten, einschließlich des Ortsnamens.
 - den Namen, die Reihenfolge, die Qualität und die Diashow-Einstellungen des Tags.
-- den Namen des Mac, von dem es stammt, damit Ihre anderen Macs es unter „Von deinen anderen Macs“ anzeigen können.
+- den Namen jedes Mac, von dem Sie hochladen, getrennt von Ihren Tags gespeichert und nie geteilt, damit Ihre anderen Macs unter „Von deinen anderen Macs“ anzeigen können, woher ein Tag stammt.
 
 ## Teilen mit eingeladenen Personen (f/8 Pro)
 
@@ -33,19 +33,21 @@ Wenn Sie ein Tag teilen, können die eingeladenen Personen Folgendes sehen:
 - seine Fotos
 - seinen Namen
 - sein Titelbild und seine Diashow
-- Ihren Namen, wie er auf Ihrem Mac eingestellt ist
-- die E-Mail-Adressen der dazu eingeladenen Personen und wer herunterladen darf
+- den Namen, unter dem Sie teilen: Ihren Vornamen oder einen Namen, den Sie unter Einstellungen › Teilen wählen. f/8 teilt nie Ihren vollständigen Namen.
+- die anderen dazu eingeladenen Personen, so wie iCloud von Apple sie einander anzeigt
+
+f/8 speichert, wer herunterladen darf und wer zu einer Diashow eingeladen ist, in verschlüsselter (gehashter) Form, sodass diese Listen keine E-Mail-Adressen preisgeben.
 
 Um jemanden einzuladen, geben Sie die E-Mail-Adresse der Person ein. Apple nutzt sie, um ihren iCloud-Account zu finden und sie zur Freigabe hinzuzufügen. f/8 tut dann Folgendes:
 
-- **Es hinterlegt eine Einladung im gemeinsamen Postfach von f/8,** einer öffentlichen CloudKit-Datenbank, die Apple für f/8 betreibt. Die Einladung enthält eine verschlüsselte (gehashte) Form der E-Mail-Adresse, Ihren Vornamen, den Namen des Tags, die Anzahl der Fotos und den Freigabelink. Das f/8 der eingeladenen Person findet die Einladung und zeigt eine Mitteilung an. Einladungen werden entfernt, wenn Sie sie zurückziehen oder das Tag aus iCloud entfernen.
-- **Es verschickt die Einladung per E-Mail.** Ist der Einladungs-E-Mail-Dienst von f/8 aktiv, sendet f/8 die E-Mail-Adresse der Person, Ihren Vornamen, den Namen des Tags, die Anzahl der Fotos, ob sie herunterladen darf, Ihre Nachricht und den Freigabelink an diesen Dienst. Er läuft auf Cloudflare und versendet die E-Mail über Resend. Er nutzt kurzzeitig Ihre Internetadresse (IP-Adresse), um Missbrauch zu verhindern, und speichert nichts davon, nachdem die E-Mail versendet wurde. Ist der Dienst nicht aktiv, öffnet f/8 stattdessen eine E-Mail in Ihrer eigenen Mail-App, die Sie selbst senden.
+- **Es hinterlegt eine Einladung im gemeinsamen Postfach von f/8,** einer öffentlichen CloudKit-Datenbank, die Apple für f/8 betreibt. Die Einladung enthält eine verschlüsselte (gehashte) Form der E-Mail-Adresse, Ihren Freigabenamen, den Namen des Tags, die Anzahl der Fotos und den Freigabelink. Das f/8 der eingeladenen Person findet die Einladung und zeigt eine Mitteilung an. Einladungen werden entfernt, wenn Sie sie zurückziehen oder das Tag aus iCloud entfernen.
+- **Es verschickt die Einladung per E-Mail.** Ist der Einladungs-E-Mail-Dienst von f/8 aktiv, sendet f/8 die E-Mail-Adresse der Person, Ihren Freigabenamen, den Namen des Tags, die Anzahl der Fotos, ob sie herunterladen darf, Ihre Nachricht und den Freigabelink an diesen Dienst. Er läuft auf Cloudflare und versendet die E-Mail über Resend. Er nutzt kurzzeitig Ihre Internetadresse (IP-Adresse), um Missbrauch zu verhindern, und speichert nichts davon, nachdem die E-Mail versendet wurde. Ist der Dienst nicht aktiv, öffnet f/8 stattdessen eine E-Mail in Ihrer eigenen Mail-App, die Sie selbst senden.
 
 f/8 speichert auf Ihrem Mac eine Liste der Personen, die Ihre Einladungen angenommen haben, damit Sie sie leicht erneut einladen können.
 
 ## Öffentliche Links (f/8 Pro)
 
-Wenn Sie ein Tag öffentlich machen, kann **jeder mit dem Link** es in f/8 auf einem bei iCloud angemeldeten Mac ansehen. Diese Personen sehen dasselbe wie jemand, den Sie einladen. Über einen öffentlichen Link kann niemand etwas herunterladen. Sie sehen, wie viele Personen ihn geöffnet haben. Teilen Sie einen öffentlichen Link nur dort, wo es für Sie in Ordnung ist, dass ihn jeder sieht.
+Wenn Sie ein Tag öffentlich machen, kann **jeder mit dem Link** es in f/8 auf einem bei iCloud angemeldeten Mac ansehen. Diese Personen sehen seine Fotos, seinen Namen, sein Titelbild und seine Diashow sowie Ihren Freigabenamen, aber nicht, wen Sie eingeladen haben. Über einen öffentlichen Link kann niemand etwas herunterladen. Sie sehen, wie viele Personen ihn geöffnet haben. Teilen Sie einen öffentlichen Link nur dort, wo es für Sie in Ordnung ist, dass ihn jeder sieht.
 
 ## Meldungen und Moderation
 

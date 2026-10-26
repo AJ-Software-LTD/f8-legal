@@ -24,7 +24,7 @@ Khi bạn đưa một thẻ lên iCloud, f/8 lưu thẻ đó trong **cơ sở d�
 - các ảnh, ở chất lượng bạn chọn. **Vị trí chính xác luôn bị xóa.** Ở Chất lượng giảm, mọi chi tiết khác cũng bị xóa. Ở Chất lượng gốc, các chi tiết về máy ảnh như máy ảnh, ống kính và thông số chụp được giữ lại.
 - chi tiết ảnh từ f/8, không có tọa độ, bao gồm tên địa điểm.
 - tên, thứ tự, chất lượng và cài đặt trình chiếu của thẻ.
-- tên của máy Mac mà thẻ được tải lên, để các máy Mac khác của bạn có thể hiển thị thẻ trong mục "Từ các máy Mac khác của bạn".
+- tên của từng máy Mac mà bạn tải lên từ đó, được lưu riêng với các thẻ của bạn và không bao giờ được chia sẻ, để các máy Mac khác của bạn có thể hiển thị nguồn gốc của thẻ trong mục "Từ các máy Mac khác của bạn".
 
 ## Chia sẻ với những người bạn mời (f/8 Pro)
 
@@ -33,19 +33,21 @@ Khi bạn chia sẻ một thẻ, những người bạn mời có thể xem:
 - các ảnh của thẻ
 - tên của thẻ
 - ảnh bìa và trình chiếu của thẻ
-- tên của bạn, như được đặt trên máy Mac của bạn
-- địa chỉ email của những người được mời vào thẻ, và ai được phép tải xuống
+- tên bạn dùng khi chia sẻ: tên riêng của bạn, hoặc một tên bạn chọn trong Cài đặt › Chia sẻ. f/8 không bao giờ chia sẻ họ tên đầy đủ của bạn.
+- những người khác được mời vào thẻ, theo cách iCloud của Apple hiển thị họ với nhau
+
+f/8 ghi lại ai được phép tải xuống và ai được mời xem trình chiếu ở dạng đã xáo trộn (băm), để các danh sách này không làm lộ địa chỉ email của bất kỳ ai.
 
 Để mời ai đó, bạn nhập địa chỉ email của họ. Apple dùng địa chỉ này để tìm tài khoản iCloud của họ và thêm họ vào phần chia sẻ. Sau đó f/8:
 
-- **Để lại lời mời trong hộp thư chung của f/8,** một cơ sở dữ liệu CloudKit công khai do Apple vận hành cho f/8. Lời mời chứa dạng đã xáo trộn (băm) của địa chỉ email của họ, tên của bạn, tên thẻ, số lượng ảnh và liên kết chia sẻ. Ứng dụng f/8 của họ tìm thấy lời mời và hiển thị thông báo. Lời mời bị xóa khi bạn rút lại lời mời hoặc xóa thẻ khỏi iCloud.
-- **Gửi lời mời qua email.** Nếu dịch vụ email mời của f/8 đang bật, f/8 gửi địa chỉ email của họ, tên của bạn, tên thẻ, số lượng ảnh, việc họ có được tải xuống hay không, ghi chú của bạn và liên kết chia sẻ đến dịch vụ đó. Dịch vụ chạy trên Cloudflare và gửi email qua Resend. Dịch vụ dùng tạm địa chỉ internet (IP) của bạn để ngăn chặn lạm dụng, và không lưu bất kỳ thông tin nào trong số này sau khi email được gửi. Nếu dịch vụ đang tắt, f/8 sẽ mở một email trong ứng dụng thư của chính bạn để bạn tự gửi.
+- **Để lại lời mời trong hộp thư chung của f/8,** một cơ sở dữ liệu CloudKit công khai do Apple vận hành cho f/8. Lời mời chứa dạng đã xáo trộn (băm) của địa chỉ email của họ, tên chia sẻ của bạn, tên thẻ, số lượng ảnh và liên kết chia sẻ. Ứng dụng f/8 của họ tìm thấy lời mời và hiển thị thông báo. Lời mời bị xóa khi bạn rút lại lời mời hoặc xóa thẻ khỏi iCloud.
+- **Gửi lời mời qua email.** Nếu dịch vụ email mời của f/8 đang bật, f/8 gửi địa chỉ email của họ, tên chia sẻ của bạn, tên thẻ, số lượng ảnh, việc họ có được tải xuống hay không, ghi chú của bạn và liên kết chia sẻ đến dịch vụ đó. Dịch vụ chạy trên Cloudflare và gửi email qua Resend. Dịch vụ dùng tạm địa chỉ internet (IP) của bạn để ngăn chặn lạm dụng, và không lưu bất kỳ thông tin nào trong số này sau khi email được gửi. Nếu dịch vụ đang tắt, f/8 sẽ mở một email trong ứng dụng thư của chính bạn để bạn tự gửi.
 
 f/8 giữ danh sách những người đã chấp nhận lời mời của bạn trên máy Mac của bạn, để bạn có thể dễ dàng mời lại họ.
 
 ## Liên kết công khai (f/8 Pro)
 
-Nếu bạn đặt một thẻ ở chế độ công khai, **bất kỳ ai có liên kết** đều có thể xem thẻ đó trong f/8 trên máy Mac đã đăng nhập iCloud. Họ có thể xem những gì mà một người được bạn mời có thể xem. Không ai có thể tải xuống từ liên kết công khai. Bạn sẽ thấy có bao nhiêu người đã mở liên kết. Chỉ chia sẻ liên kết công khai ở những nơi bạn sẵn lòng để bất kỳ ai cũng thấy.
+Nếu bạn đặt một thẻ ở chế độ công khai, **bất kỳ ai có liên kết** đều có thể xem thẻ đó trong f/8 trên máy Mac đã đăng nhập iCloud. Họ có thể xem ảnh, tên, ảnh bìa và trình chiếu của thẻ, cùng tên chia sẻ của bạn, nhưng không thấy bạn đã mời những ai. Không ai có thể tải xuống từ liên kết công khai. Bạn sẽ thấy có bao nhiêu người đã mở liên kết. Chỉ chia sẻ liên kết công khai ở những nơi bạn sẵn lòng để bất kỳ ai cũng thấy.
 
 ## Báo cáo và kiểm duyệt
 

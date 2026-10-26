@@ -24,7 +24,7 @@ When you put a tag in iCloud, f/8 stores it in **your own private iCloud databas
 - the photos, at the quality you choose. **Exact locations are always removed.** At Reduced Quality, every other detail is removed too. At Original Quality, camera details such as the camera, lens and settings are kept.
 - the photos' details from f/8, without coordinates, including the place name.
 - the tag's name, order, quality and slideshow settings.
-- the name of the Mac it came from, so your other Macs can show it under "From Your Other Macs".
+- the name of each Mac you upload from, kept apart from your tags and never shared, so your other Macs can show where a tag came from under "From Your Other Macs".
 
 ## Sharing with people you invite (f/8 Pro)
 
@@ -33,19 +33,21 @@ When you share a tag, the people you invite can see:
 - its photos
 - its name
 - its cover image and slideshow
-- your name, as set on your Mac
-- the email addresses of the people invited to it, and who may download
+- the name you share under: your first name, or a name you choose in Settings › Sharing. f/8 never shares your full name.
+- the other people invited to it, as Apple's iCloud shows them to each other
+
+f/8 records who may download and who's invited to watch a slideshow in a scrambled (hashed) form, so these lists don't reveal anyone's email address.
 
 To invite someone, you enter their email address. Apple uses it to find their iCloud account and add them to the share. f/8 then:
 
-- **Leaves an invitation in f/8's shared mailbox,** a public CloudKit database run by Apple for f/8. The invitation contains a scrambled (hashed) form of their email address, your first name, the tag's name, the number of photos and the share link. Their copy of f/8 finds the invitation and shows a notification. Invitations are removed when you withdraw them or remove the tag from iCloud.
-- **Emails the invitation.** If f/8's invitation email service is on, f/8 sends their email address, your first name, the tag's name, the number of photos, whether they may download, your note and the share link to that service. It runs on Cloudflare and sends the email through Resend. It briefly uses your internet (IP) address to prevent abuse, and it doesn't store any of this after the email is sent. If the service is off, f/8 opens an email in your own mail app for you to send instead.
+- **Leaves an invitation in f/8's shared mailbox,** a public CloudKit database run by Apple for f/8. The invitation contains a scrambled (hashed) form of their email address, your sharing name, the tag's name, the number of photos and the share link. Their copy of f/8 finds the invitation and shows a notification. Invitations are removed when you withdraw them or remove the tag from iCloud.
+- **Emails the invitation.** If f/8's invitation email service is on, f/8 sends their email address, your sharing name, the tag's name, the number of photos, whether they may download, your note and the share link to that service. It runs on Cloudflare and sends the email through Resend. It briefly uses your internet (IP) address to prevent abuse, and it doesn't store any of this after the email is sent. If the service is off, f/8 opens an email in your own mail app for you to send instead.
 
 f/8 keeps a list of the people who've accepted your invitations on your Mac, so you can invite them again easily.
 
 ## Public links (f/8 Pro)
 
-If you make a tag public, **anyone with the link** can view it in f/8 on a Mac signed in to iCloud. They can see the same things as someone you invite. Nobody can download from a public link. You'll see how many people have opened it. Share a public link only where you're happy for anyone to see it.
+If you make a tag public, **anyone with the link** can view it in f/8 on a Mac signed in to iCloud. They see its photos, name, cover image and slideshow, and your sharing name, but not who you've invited. Nobody can download from a public link. You'll see how many people have opened it. Share a public link only where you're happy for anyone to see it.
 
 ## Reports and moderation
 

@@ -74,7 +74,7 @@ os detalhes das fotos vindos do f/8, sem coordenadas, incluindo o nome do lugar.
 </li><li>
 o nome, a ordem, a qualidade e os ajustes de apresentação da etiqueta.
 </li><li>
-o nome do Mac de onde ela veio, para que seus outros Macs possam mostrá-la em "Dos Seus Outros Macs".
+o nome de cada Mac a partir do qual você envia, guardado separado das suas etiquetas e nunca compartilhado, para que seus outros Macs possam mostrar de onde veio uma etiqueta em "Dos Seus Outros Macs".
 </li></ul>
 <h2>Compartilhar com pessoas que você convida (f/8 Pro)</h2>
 <p>Quando você compartilha uma etiqueta, as pessoas que você convida podem ver:</p>
@@ -85,19 +85,20 @@ o nome dela
 </li><li>
 a imagem de capa e a apresentação dela
 </li><li>
-o seu nome, como está definido no seu Mac
+o nome com o qual você compartilha: o seu primeiro nome ou um nome que você escolhe em Ajustes › Compartilhamento. O f/8 nunca compartilha o seu nome completo.
 </li><li>
-os endereços de e-mail das pessoas convidadas e quem pode baixar
+as outras pessoas convidadas, da forma como o iCloud da Apple as mostra umas às outras
 </li></ul>
+<p>O f/8 registra quem pode baixar e quem foi convidado para assistir a uma apresentação em uma forma embaralhada (hash), para que essas listas não revelem o endereço de e-mail de ninguém.</p>
 <p>Para convidar alguém, você digita o endereço de e-mail da pessoa. A Apple usa esse endereço para encontrar a conta do iCloud dela e adicioná-la ao compartilhamento. Em seguida, o f/8:</p>
 <ul><li>
-<strong>Deixa um convite na caixa de correio compartilhada do f/8,</strong> um banco de dados público do CloudKit operado pela Apple para o f/8. O convite contém uma forma embaralhada (hash) do endereço de e-mail da pessoa, o seu primeiro nome, o nome da etiqueta, o número de fotos e o link de compartilhamento. A cópia do f/8 da pessoa encontra o convite e mostra uma notificação. Os convites são removidos quando você os retira ou remove a etiqueta do iCloud.
+<strong>Deixa um convite na caixa de correio compartilhada do f/8,</strong> um banco de dados público do CloudKit operado pela Apple para o f/8. O convite contém uma forma embaralhada (hash) do endereço de e-mail da pessoa, o seu nome de compartilhamento, o nome da etiqueta, o número de fotos e o link de compartilhamento. A cópia do f/8 da pessoa encontra o convite e mostra uma notificação. Os convites são removidos quando você os retira ou remove a etiqueta do iCloud.
 </li><li>
-<strong>Envia o convite por e-mail.</strong> Se o serviço de e-mail de convites do f/8 estiver ativado, o f/8 envia a esse serviço o endereço de e-mail da pessoa, o seu primeiro nome, o nome da etiqueta, o número de fotos, se ela pode baixar, a sua mensagem e o link de compartilhamento. O serviço roda na Cloudflare e envia o e-mail pela Resend. Ele usa brevemente o seu endereço de internet (IP) para evitar abusos e não guarda nada disso depois que o e-mail é enviado. Se o serviço estiver desativado, o f/8 abre um e-mail no seu próprio app de e-mail para você enviar.
+<strong>Envia o convite por e-mail.</strong> Se o serviço de e-mail de convites do f/8 estiver ativado, o f/8 envia a esse serviço o endereço de e-mail da pessoa, o seu nome de compartilhamento, o nome da etiqueta, o número de fotos, se ela pode baixar, a sua mensagem e o link de compartilhamento. O serviço roda na Cloudflare e envia o e-mail pela Resend. Ele usa brevemente o seu endereço de internet (IP) para evitar abusos e não guarda nada disso depois que o e-mail é enviado. Se o serviço estiver desativado, o f/8 abre um e-mail no seu próprio app de e-mail para você enviar.
 </li></ul>
 <p>O f/8 guarda no seu Mac uma lista das pessoas que aceitaram seus convites, para que você possa convidá-las de novo com facilidade.</p>
 <h2>Links públicos (f/8 Pro)</h2>
-<p>Se você tornar uma etiqueta pública, <strong>qualquer pessoa com o link</strong> poderá vê-la no f/8, em um Mac com sessão iniciada no iCloud. Essa pessoa pode ver as mesmas coisas que alguém que você convida. Ninguém pode baixar a partir de um link público. Você verá quantas pessoas o abriram. Só compartilhe um link público onde você não se importe que qualquer pessoa o veja.</p>
+<p>Se você tornar uma etiqueta pública, <strong>qualquer pessoa com o link</strong> poderá vê-la no f/8, em um Mac com sessão iniciada no iCloud. Essa pessoa vê as fotos, o nome, a imagem de capa e a apresentação da etiqueta, além do seu nome de compartilhamento, mas não quem você convidou. Ninguém pode baixar a partir de um link público. Você verá quantas pessoas o abriram. Só compartilhe um link público onde você não se importe que qualquer pessoa o veja.</p>
 <h2>Denúncias e moderação</h2>
 <p>Qualquer pessoa que possa ver uma etiqueta compartilhada ou pública pode denunciá-la. A denúncia é guardada no banco de dados público do CloudKit do f/8 e contém:</p>
 <ul><li>

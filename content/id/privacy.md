@@ -24,7 +24,7 @@ Saat Anda menaruh tag di iCloud, f/8 menyimpannya di **database iCloud pribadi m
 - foto, dalam kualitas yang Anda pilih. **Lokasi persis selalu dihapus.** Pada Kualitas Dikurangi, semua detail lainnya juga dihapus. Pada Kualitas Asli, detail kamera seperti kamera, lensa, dan pengaturan tetap disimpan.
 - detail foto dari f/8, tanpa koordinat, termasuk nama tempat.
 - nama, urutan, kualitas, dan pengaturan salindia tag.
-- nama Mac asal tag tersebut, agar Mac Anda yang lain dapat menampilkannya di "Dari Mac Anda yang Lain".
+- nama setiap Mac tempat Anda mengunggah, yang disimpan terpisah dari tag Anda dan tidak pernah dibagikan, agar Mac Anda yang lain dapat menampilkan asal tag di "Dari Mac Anda yang Lain".
 
 ## Berbagi dengan orang yang Anda undang (f/8 Pro)
 
@@ -33,19 +33,21 @@ Saat Anda membagikan tag, orang yang Anda undang dapat melihat:
 - fotonya
 - namanya
 - gambar sampul dan salindianya
-- nama Anda, sebagaimana diatur di Mac Anda
-- alamat email orang-orang yang diundang, dan siapa yang boleh mengunduh
+- nama yang Anda gunakan untuk berbagi: nama depan Anda, atau nama yang Anda pilih di Pengaturan › Berbagi. f/8 tidak pernah membagikan nama lengkap Anda.
+- orang lain yang diundang, sebagaimana iCloud milik Apple menampilkan mereka satu sama lain
+
+f/8 mencatat siapa yang boleh mengunduh dan siapa yang diundang untuk menonton salindia dalam bentuk acak (hash), sehingga daftar ini tidak mengungkap alamat email siapa pun.
 
 Untuk mengundang seseorang, Anda memasukkan alamat email orang tersebut. Apple menggunakannya untuk menemukan akun iCloud orang tersebut dan menambahkannya ke berbagi. Lalu f/8:
 
-- **Meninggalkan undangan di kotak surat bersama f/8,** yaitu database CloudKit publik yang dikelola Apple untuk f/8. Undangan berisi bentuk acak (hash) dari alamat email orang tersebut, nama depan Anda, nama tag, jumlah foto, dan tautan berbagi. Salinan f/8 milik orang tersebut menemukan undangan itu dan menampilkan notifikasi. Undangan dihapus saat Anda menariknya kembali atau menghapus tag dari iCloud.
-- **Mengirim undangan lewat email.** Jika layanan email undangan f/8 aktif, f/8 mengirim alamat email orang tersebut, nama depan Anda, nama tag, jumlah foto, apakah mereka boleh mengunduh, catatan Anda, dan tautan berbagi ke layanan tersebut. Layanan ini berjalan di Cloudflare dan mengirim email melalui Resend. Layanan ini menggunakan alamat internet (IP) Anda sebentar untuk mencegah penyalahgunaan, dan tidak menyimpan data apa pun ini setelah email terkirim. Jika layanan nonaktif, f/8 akan membuka email di aplikasi email Anda sendiri agar Anda yang mengirimnya.
+- **Meninggalkan undangan di kotak surat bersama f/8,** yaitu database CloudKit publik yang dikelola Apple untuk f/8. Undangan berisi bentuk acak (hash) dari alamat email orang tersebut, nama berbagi Anda, nama tag, jumlah foto, dan tautan berbagi. Salinan f/8 milik orang tersebut menemukan undangan itu dan menampilkan notifikasi. Undangan dihapus saat Anda menariknya kembali atau menghapus tag dari iCloud.
+- **Mengirim undangan lewat email.** Jika layanan email undangan f/8 aktif, f/8 mengirim alamat email orang tersebut, nama berbagi Anda, nama tag, jumlah foto, apakah mereka boleh mengunduh, catatan Anda, dan tautan berbagi ke layanan tersebut. Layanan ini berjalan di Cloudflare dan mengirim email melalui Resend. Layanan ini menggunakan alamat internet (IP) Anda sebentar untuk mencegah penyalahgunaan, dan tidak menyimpan data apa pun ini setelah email terkirim. Jika layanan nonaktif, f/8 akan membuka email di aplikasi email Anda sendiri agar Anda yang mengirimnya.
 
 f/8 menyimpan daftar orang yang telah menerima undangan Anda di Mac Anda, agar Anda dapat mengundang mereka lagi dengan mudah.
 
 ## Tautan publik (f/8 Pro)
 
-Jika Anda menjadikan tag publik, **siapa pun yang memiliki tautan** dapat melihatnya di f/8 pada Mac yang masuk ke iCloud. Mereka dapat melihat hal yang sama dengan orang yang Anda undang. Tidak ada yang dapat mengunduh dari tautan publik. Anda akan melihat berapa banyak orang yang telah membukanya. Bagikan tautan publik hanya di tempat yang Anda rela dilihat oleh siapa pun.
+Jika Anda menjadikan tag publik, **siapa pun yang memiliki tautan** dapat melihatnya di f/8 pada Mac yang masuk ke iCloud. Mereka dapat melihat foto, nama, gambar sampul, dan salindianya, serta nama berbagi Anda, tetapi tidak dapat melihat siapa yang Anda undang. Tidak ada yang dapat mengunduh dari tautan publik. Anda akan melihat berapa banyak orang yang telah membukanya. Bagikan tautan publik hanya di tempat yang Anda rela dilihat oleh siapa pun.
 
 ## Laporan dan moderasi
 

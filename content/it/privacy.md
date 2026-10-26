@@ -24,7 +24,7 @@ Quando mette un tag su iCloud, f/8 lo archivia nel **Suo database iCloud privato
 - le foto, nella qualità che Lei sceglie. **Le posizioni esatte vengono sempre rimosse.** Con Qualità ridotta, viene rimosso anche ogni altro dettaglio. Con Qualità originale, vengono conservati i dettagli di scatto come fotocamera, obiettivo e impostazioni.
 - i dettagli delle foto provenienti da f/8, senza coordinate, compreso il nome del luogo.
 - il nome, l’ordine, la qualità e le impostazioni della presentazione del tag.
-- il nome del Mac da cui proviene, affinché gli altri Suoi Mac possano mostrarlo in «Dagli altri Mac».
+- il nome di ogni Mac da cui carica, conservato separatamente dai Suoi tag e mai condiviso, affinché gli altri Suoi Mac possano mostrare da dove proviene un tag in «Dagli altri Mac».
 
 ## Condivisione con le persone che invita (f/8 Pro)
 
@@ -33,19 +33,21 @@ Quando condivide un tag, le persone che invita possono vedere:
 - le sue foto
 - il suo nome
 - l’immagine di copertina e la presentazione
-- il Suo nome, come impostato sul Suo Mac
-- gli indirizzi email delle persone invitate e chi può scaricare
+- il nome con cui condivide: il Suo nome di battesimo o un nome che sceglie in Impostazioni › Condivisione. f/8 non condivide mai il Suo nome completo.
+- le altre persone invitate, così come iCloud di Apple le mostra l’una all’altra
+
+f/8 registra chi può scaricare e chi è invitato a guardare una presentazione in forma codificata (hash), così che questi elenchi non rivelino l’indirizzo email di nessuno.
 
 Per invitare qualcuno, Lei inserisce il suo indirizzo email. Apple lo usa per trovare il suo account iCloud e aggiungerlo alla condivisione. f/8 quindi:
 
-- **Lascia un invito nella casella condivisa di f/8,** un database CloudKit pubblico gestito da Apple per f/8. L’invito contiene una forma codificata (hash) del suo indirizzo email, il Suo nome di battesimo, il nome del tag, il numero di foto e il link di condivisione. La sua copia di f/8 trova l’invito e mostra una notifica. Gli inviti vengono rimossi quando Lei li ritira o rimuove il tag da iCloud.
-- **Invia l’invito via email.** Se il servizio email per gli inviti di f/8 è attivo, f/8 invia a tale servizio il suo indirizzo email, il Suo nome di battesimo, il nome del tag, il numero di foto, se può scaricare, la Sua nota e il link di condivisione. Il servizio funziona su Cloudflare e invia l’email tramite Resend. Usa brevemente il Suo indirizzo Internet (IP) per prevenire abusi e non conserva nessuno di questi dati dopo l’invio dell’email. Se il servizio non è attivo, f/8 apre invece un’email nella Sua app di posta, da inviare personalmente.
+- **Lascia un invito nella casella condivisa di f/8,** un database CloudKit pubblico gestito da Apple per f/8. L’invito contiene una forma codificata (hash) del suo indirizzo email, il Suo nome di condivisione, il nome del tag, il numero di foto e il link di condivisione. La sua copia di f/8 trova l’invito e mostra una notifica. Gli inviti vengono rimossi quando Lei li ritira o rimuove il tag da iCloud.
+- **Invia l’invito via email.** Se il servizio email per gli inviti di f/8 è attivo, f/8 invia a tale servizio il suo indirizzo email, il Suo nome di condivisione, il nome del tag, il numero di foto, se può scaricare, la Sua nota e il link di condivisione. Il servizio funziona su Cloudflare e invia l’email tramite Resend. Usa brevemente il Suo indirizzo Internet (IP) per prevenire abusi e non conserva nessuno di questi dati dopo l’invio dell’email. Se il servizio non è attivo, f/8 apre invece un’email nella Sua app di posta, da inviare personalmente.
 
 f/8 conserva sul Suo Mac un elenco delle persone che hanno accettato i Suoi inviti, così può invitarle di nuovo facilmente.
 
 ## Link pubblici (f/8 Pro)
 
-Se rende pubblico un tag, **chiunque abbia il link** può vederlo in f/8 su un Mac con accesso a iCloud. Può vedere le stesse cose di una persona che Lei invita. Nessuno può scaricare da un link pubblico. Lei vedrà quante persone lo hanno aperto. Condivida un link pubblico solo dove Le va bene che chiunque lo veda.
+Se rende pubblico un tag, **chiunque abbia il link** può vederlo in f/8 su un Mac con accesso a iCloud. Può vederne le foto, il nome, l’immagine di copertina e la presentazione, oltre al Suo nome di condivisione, ma non chi ha invitato Lei. Nessuno può scaricare da un link pubblico. Lei vedrà quante persone lo hanno aperto. Condivida un link pubblico solo dove Le va bene che chiunque lo veda.
 
 ## Segnalazioni e moderazione
 
