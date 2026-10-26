@@ -10,11 +10,11 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-BASE = "https://built-by-aj.github.io/f8-legal"
+BASE = "https://aj-software-ltd.github.io/f8-legal"
 # Who f/8 is made by, and where to reach us. Filled into every language.
 COMPANY = "AJ Software Ltd"
-CONTACT_URL = "https://github.com/built-by-aj/f8-legal/issues"
-CONTACT_TEXT = "github.com/built-by-aj/f8-legal/issues"
+CONTACT_URL = "https://github.com/AJ-Software-LTD/f8-legal/issues"
+CONTACT_TEXT = "github.com/AJ-Software-LTD/f8-legal/issues"
 # English first, then the 20 languages f/8 is translated into.
 LANGUAGES = ["en", "ar", "bn", "de", "es", "fr", "hi", "id", "it", "ja", "ko", "mr", "pt-BR", "ru", "ta", "te",
              "tr", "ur", "vi", "zh-Hans", "zh-Hant"]
