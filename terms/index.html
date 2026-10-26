@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Use</title>
+<meta name="description" content="f/8 Portfolio Privacy Policy and Terms of Use.">
+<link rel="canonical" href="https://built-by-aj.github.io/f8-legal/terms/">
+<style>
+:root { color-scheme: dark light; --bg: #1c1c1e; --raised: #2a2a2d; --text: #ececec; --body: #cfcfcf;
+        --muted: #9a9a9a; --line: #38383b; }
+@media (prefers-color-scheme: light) {
+  :root { --bg: #f2f0eb; --raised: #e4e1da; --text: #1d1d1f; --body: #3a3a3c; --muted: #6e6e73; --line: #d6d3cc; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+       font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", "Noto Sans", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 56px 16px 80px; }
+.brand { font-weight: 600; font-size: 15px; color: var(--muted); text-decoration: none; letter-spacing: 0.01em; }
+.brand i { font-style: italic; }
+h1 { font-size: clamp(30px, 5vw, 42px); line-height: 1.2; margin: 18px 0 6px; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 20px; margin: 40px 0 8px; font-weight: 700; }
+p, li { color: var(--body); }
+ul { padding-inline-start: 22px; }
+li { margin: 4px 0; }
+li > ul { margin: 4px 0; }
+a { color: var(--text); }
+strong { color: var(--text); }
+.meta { color: var(--muted); font-size: 15px; margin-bottom: 28px; }
+.note { background: var(--raised); border-radius: 12px; padding: 12px 16px; font-size: 15px; color: var(--body); }
+nav.switch { display: flex; gap: 16px; flex-wrap: wrap; font-size: 15px; margin-top: 8px; }
+nav.switch a { color: var(--muted); }
+details { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 20px; }
+summary { cursor: pointer; color: var(--muted); font-size: 15px; }
+.langs { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px 16px; margin-top: 12px;
+         font-size: 15px; }
+.langs a { color: var(--body); text-decoration: none; padding: 4px 0; }
+.langs a[aria-current] { color: var(--text); font-weight: 700; }
+.docs { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; }
+.docs a { display: block; background: var(--raised); border-radius: 12px; padding: 14px 18px; text-decoration: none;
+          font-weight: 600; }
+footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 20px; color: var(--muted); font-size: 14px; }
+footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<a class="brand" href="../" lang="en"><i>f</i>/8 Portfolio</a>
+<h1>Terms of Use</h1>
+<p>Choose your language</p>
+<div class="langs"><a href="../en/terms/" lang="en" hreflang="en">English</a><a href="../ar/terms/" lang="ar" hreflang="ar">العربية</a><a href="../bn/terms/" lang="bn" hreflang="bn">বাংলা</a><a href="../de/terms/" lang="de" hreflang="de">Deutsch</a><a href="../es/terms/" lang="es" hreflang="es">Español</a><a href="../fr/terms/" lang="fr" hreflang="fr">Français</a><a href="../hi/terms/" lang="hi" hreflang="hi">हिन्दी</a><a href="../id/terms/" lang="id" hreflang="id">Bahasa Indonesia</a><a href="../it/terms/" lang="it" hreflang="it">Italiano</a><a href="../ja/terms/" lang="ja" hreflang="ja">日本語</a><a href="../ko/terms/" lang="ko" hreflang="ko">한국어</a><a href="../mr/terms/" lang="mr" hreflang="mr">मराठी</a><a href="../pt-BR/terms/" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a><a href="../ru/terms/" lang="ru" hreflang="ru">Русский</a><a href="../ta/terms/" lang="ta" hreflang="ta">தமிழ்</a><a href="../te/terms/" lang="te" hreflang="te">తెలుగు</a><a href="../tr/terms/" lang="tr" hreflang="tr">Türkçe</a><a href="../ur/terms/" lang="ur" hreflang="ur">اردو</a><a href="../vi/terms/" lang="vi" hreflang="vi">Tiếng Việt</a><a href="../zh-Hans/terms/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a><a href="../zh-Hant/terms/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></div>
+<script>
+(function () {
+  var codes = ["en", "ar", "bn", "de", "es", "fr", "hi", "id", "it", "ja", "ko", "mr", "pt-BR", "ru", "ta", "te", "tr", "ur", "vi", "zh-Hans", "zh-Hant"], wanted = navigator.languages || [navigator.language || "en"];
+  function match(tag) {
+    tag = tag.toLowerCase();
+    if (/^zh-(hant|tw|hk|mo)/.test(tag)) return "zh-Hant";
+    if (/^zh/.test(tag)) return "zh-Hans";
+    if (/^pt/.test(tag)) return "pt-BR";
+    for (var i = 0; i < codes.length; i++) if (codes[i].toLowerCase() === tag.split("-")[0]) return codes[i];
+    return null;
+  }
+  for (var i = 0; i < wanted.length; i++) {
+    var code = match(wanted[i]);
+    if (code) { location.replace("../" + code + "/terms/"); return; }
+  }
+  location.replace("../en/terms/");
+})();
+</script>
+<footer>© 2026 AJ Software Ltd · <span lang="en"><i>f</i>/8 Portfolio</span></footer>
+</main>
+</body>
+</html>
