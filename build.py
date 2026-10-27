@@ -31,7 +31,6 @@ body { margin: 0; background: var(--bg); color: var(--text);
        font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", "Noto Sans", sans-serif; }
 main { max-width: 720px; margin: 0 auto; padding: 56px 16px 80px; }
 .brand { font-weight: 600; font-size: 15px; color: var(--muted); text-decoration: none; letter-spacing: 0.01em; }
-.brand i { font-style: italic; }
 h1 { font-size: clamp(30px, 5vw, 42px); line-height: 1.2; margin: 18px 0 6px; font-weight: 700; letter-spacing: -0.01em; }
 h2 { font-size: 20px; margin: 40px 0 8px; font-weight: 700; }
 p, li { color: var(--body); }
@@ -130,7 +129,7 @@ def page(lang: str, ui: dict, title: str, description: str, body: str, canonical
 <body>
 <main>
 {body}
-<footer>© 2026 {COMPANY} · <span lang="en"><i>f</i>/8 Portfolio</span></footer>
+<footer>© 2026 {COMPANY} · <span lang="en">f/8 Portfolio</span></footer>
 </main>
 </body>
 </html>
@@ -153,7 +152,7 @@ def build():
             meta, body = read(lang, doc)
             other = "terms" if doc == "privacy" else "privacy"
             note = f'<p class="note">{inline(ui["translationNote"])}</p>' if ui["translationNote"] else ""
-            content = f"""<a class="brand" href="../../{lang}/" lang="en"><i>f</i>/8 Portfolio</a>
+            content = f"""<a class="brand" href="../../{lang}/" lang="en">f/8 Portfolio</a>
 <h1>{html.escape(meta['title'])}</h1>
 <div class="meta">{html.escape(ui['effective'])}</div>
 <nav class="switch"><a href="../../{lang}/{other}/">{html.escape(ui[other])}</a></nav>
@@ -165,8 +164,8 @@ def build():
             out.write_text(page(lang, ui, meta["title"], meta["description"], content, f"{BASE}/{lang}/{doc}/"))
         # Each language's home: its two documents.
         docs = "".join(f'<a href="{d}/">{html.escape(ui[d])}</a>' for d in DOCS)
-        home = f"""<a class="brand" href="../" lang="en"><i>f</i>/8 Portfolio</a>
-<h1><span lang="en"><i>f</i>/8 Portfolio</span></h1>
+        home = f"""<a class="brand" href="../" lang="en">f/8 Portfolio</a>
+<h1><span lang="en">f/8 Portfolio</span></h1>
 <div class="docs">{docs}</div>"""
         (ROOT / lang).mkdir(exist_ok=True)
         (ROOT / lang / "index.html").write_text(
@@ -199,7 +198,7 @@ def build():
 }})();
 </script>"""
         title = uis["en"][target] if target else "f/8 Portfolio"
-        body = f"""<a class="brand" href="{prefix or './'}" lang="en"><i>f</i>/8 Portfolio</a>
+        body = f"""<a class="brand" href="{prefix or './'}" lang="en">f/8 Portfolio</a>
 <h1>{html.escape(title)}</h1>
 <p>{html.escape(uis['en']['chooseLanguage'])}</p>
 <div class="langs">{links}</div>
