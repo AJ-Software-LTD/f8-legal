@@ -18,7 +18,7 @@ CONTACT_TEXT = "github.com/AJ-Software-LTD/f8-legal/issues"
 # English first, then the 20 languages f/8 is translated into.
 LANGUAGES = ["en", "ar", "bn", "de", "es", "fr", "hi", "id", "it", "ja", "ko", "mr", "pt-BR", "ru", "ta", "te",
              "tr", "ur", "vi", "zh-Hans", "zh-Hant"]
-DOCS = ["privacy", "terms"]
+DOCS = ["privacy", "terms", "support"]
 
 CSS = """
 :root { color-scheme: dark light; --bg: #1c1c1e; --raised: #2a2a2d; --text: #ececec; --body: #cfcfcf;
@@ -109,7 +109,7 @@ def read(lang: str, doc: str) -> tuple[dict, str]:
     _, front, body = text.split("---", 2)
     meta = dict(line.split(": ", 1) for line in front.strip().splitlines())
     fills = {"company": COMPANY, "contact": f"[{CONTACT_TEXT}]({CONTACT_URL})",
-             "privacy": f"../../{lang}/privacy/", "terms": f"../../{lang}/terms/"}
+             "privacy": f"../../{lang}/privacy/", "terms": f"../../{lang}/terms/", "support": f"../../{lang}/support/"}
     for key, value in fills.items():
         body = body.replace("{{" + key + "}}", value)
     return meta, body
@@ -150,12 +150,11 @@ def build():
         ui = uis[lang]
         for doc in DOCS:
             meta, body = read(lang, doc)
-            other = "terms" if doc == "privacy" else "privacy"
             note = f'<p class="note">{inline(ui["translationNote"])}</p>' if ui["translationNote"] else ""
             content = f"""<a class="brand" href="../../{lang}/" lang="en">f/8 Portfolio</a>
 <h1>{html.escape(meta['title'])}</h1>
 <div class="meta">{html.escape(ui['effective'])}</div>
-<nav class="switch"><a href="../../{lang}/{other}/">{html.escape(ui[other])}</a></nav>
+<nav class="switch">{"".join(f'<a href="../../{lang}/{d}/">{html.escape(ui[d])}</a>' for d in DOCS if d != doc)}</nav>
 {note}
 {markdown(body)}
 {language_list(lang, doc, uis)}"""
@@ -169,12 +168,12 @@ def build():
 <div class="docs">{docs}</div>"""
         (ROOT / lang).mkdir(exist_ok=True)
         (ROOT / lang / "index.html").write_text(
-            page(lang, ui, "f/8 Portfolio", "f/8 Portfolio Privacy Policy and Terms of Use.", home, f"{BASE}/{lang}/"))
+            page(lang, ui, "f/8 Portfolio", "f/8 Portfolio Privacy Policy, Terms of Use and Support.", home, f"{BASE}/{lang}/"))
 
     # /privacy/, /terms/ and the index send each visitor to their own language, with every language listed
     # for anyone without JavaScript. These are the addresses to use when one link has to serve everyone.
     codes = json.dumps(LANGUAGES)
-    for target in ["privacy", "terms", ""]:
+    for target in DOCS + [""]:
         suffix = f"{target}/" if target else ""
         prefix = "../" if target else ""
         links = "".join(f'<a href="{prefix}{l}/{suffix}" lang="{l}" hreflang="{l}">{html.escape(uis[l]["language"])}</a>'
@@ -205,7 +204,7 @@ def build():
 {script}"""
         out = ROOT / target / "index.html" if target else ROOT / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page("en", uis["en"], title, "f/8 Portfolio Privacy Policy and Terms of Use.", body,
+        out.write_text(page("en", uis["en"], title, "f/8 Portfolio Privacy Policy, Terms of Use and Support.", body,
                             f"{BASE}/{suffix}"))
 
 
