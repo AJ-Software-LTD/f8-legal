@@ -16,7 +16,7 @@ ok = True
 langs = sys.argv[1:] or sorted(p.name for p in ROOT.iterdir() if p.name != "en")
 en_ui = set(json.loads((ROOT / "en/ui.json").read_text()))
 for lang in langs:
-    for doc in ["privacy.md", "terms.md"]:
+    for doc in ["privacy.md", "terms.md", "support.md"]:
         a, b = shape((ROOT / "en" / doc).read_text()), shape((ROOT / lang / doc).read_text())
         for k in a:
             if a[k] != b[k]:
